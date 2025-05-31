@@ -3,11 +3,12 @@
 pw.x < scf_unperturbed.in | tee scf_unperturbed.out
 pw.x < nscf_unperturbed.in | tee nscf_unperturbed.out
 wannier_ham.x <hamilt_unperturbed.in |tee hamilt_unperturbed.out
+exchanges.x <exchanges_unperturbed.in |tee exchanges_unperturbed.out
 
 pw.x < scf_B3g3_11p9mod.in | tee scf_B3g3_11p9mod.out
 pw.x < nscf_B3g3_11p9mod.in | tee nscf_B3g3_11p9mod.out
 wannier_ham.x <hamilt_B3g3_11p9mod.in |tee hamilt_B3g3_11p9mod.out
-
+exchanges.x <exchanges_B3g3_11p9mod.in |tee exchanges_B3g3_11p9mod.out
 
 echo "DONE"
 
