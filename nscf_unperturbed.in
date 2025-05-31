@@ -1,0 +1,76 @@
+&CONTROL
+  calculation = 'nscf'
+  etot_conv_thr =   7.35E-8        	! 1e-6  eV
+  forc_conv_thr =   3.889E-5       	! 0.001 eV/A
+  outdir = './out/'
+  prefix = 'YCrO3'
+  pseudo_dir = '/home/adi/Dropbox/SharedItems/Sirssystem/pseudo/'
+  tprnfor = .true.
+  tstress = .true.
+  verbosity = 'high'
+  wf_collect = .true.
+/
+&SYSTEM
+  ecutwfc =  100
+  ibrav = 0
+  nat = 20
+  nspin = 2
+  ntyp = 4
+  occupations = 'smearing'
+    smearing = 'gauss',
+    degauss = 0.02,
+  starting_magnetization(2) =   0.5
+  starting_magnetization(3) =   -0.5
+  lda_plus_u = .TRUE.
+  U_projection_type = 'ortho-atomic',
+  lda_plus_u_kind = 0 
+  Hubbard_u(2) = 3.7
+  Hubbard_u(3) = 3.7
+  nosym = .TRUE.
+  noinv = .TRUE.
+/
+ &electrons
+    conv_thr =  1.d-10
+    mixing_beta = 0.7
+/
+&IONS
+  ion_dynamics = 'bfgs',            ! BFGS quasi-newton algorithm       
+ / 
+&cell
+   cell_dynamics = 'bfgs',          ! BFGS quasi-newton algorithm
+   press = 0.00 ,                   ! Target Pressure in relaxation
+/
+ATOMIC_SPECIES
+Y      88.90585 Y.pbe-spn-kjpaw_psl.1.0.0.UPF
+Cr1   51.9961  Cr.pbe-spn-kjpaw_psl.1.0.0.UPF
+Cr2   51.9961  Cr.pbe-spn-kjpaw_psl.1.0.0.UPF
+O    15.999   O.pbe-kjpaw.UPF
+CELL_PARAMETERS (angstrom)
+     5.3191242218    0.000000000    0.0000000000
+     0.0000000000    5.617837429    0.0000000000
+     0.0000000000    0.000000000    7.6686959267
+      
+ATOMIC_POSITIONS (crystal)
+Y             0.0186042354        0.9335429381        0.2500000036
+Y             0.5186042264        0.5664570619        0.7500000196
+Y             0.4813957736        0.4335429381        0.2499999964
+Y             0.9813957286        0.0664570619        0.7500000124
+Cr1           0.0000000000        0.5000000000        0.0000000000
+Cr2           0.5000000000        0.0000000000        0.0000000000
+Cr1           0.5000000000        0.0000000000        0.5000000000
+Cr2           0.0000000000        0.5000000000        0.5000000000
+O             0.6938130374        0.3018851806        0.9425664092
+O             0.1938130463        0.1981148199        0.0574335495
+O             0.8061869626        0.8018851376        0.5574335598
+O             0.3061869537        0.6981148629        0.4425664585
+O             0.3061869626        0.6981148624        0.0574335368
+O             0.8061869537        0.8018851371        0.9425663965
+O             0.1938130374        0.1981148194        0.4425664712
+O             0.6938130463        0.3018851801        0.5574335725
+O             0.1116579028        0.4583461962        0.7500000074
+O             0.6116579138        0.0416537728        0.2499999914
+O             0.3883421312        0.9583462382        0.7500000246
+O             0.8883420412        0.5416538038        0.2500000086
+K_POINTS automatic
+8 8 8 0 0 0
+
