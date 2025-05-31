@@ -1,0 +1,2011 @@
+
+     Program WANNIER_HAM v.6.7MaX starts on 14Jan2024 at  6:59:56 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     1 processors
+
+     MPI processes distributed on     1 nodes
+
+     Reading xml data from directory:
+
+     ./out/YCrO3.save/
+     file Y.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4S 4P renormalized
+     file Cr.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  3S 3P 3D renormalized
+     file Cr.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  3S 3P 3D renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum        3389    3389    931               208901   208901   30119
+
+
+     Check: negative core charge=   -0.000004
+     Spin 1
+       Wannier #  1 centered on atom Cr1 (position  0.00000 0.52808 0.00000 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=1
+       Wannier #  2 centered on atom Cr1 (position  0.00000 0.52808 0.00000 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=2
+       Wannier #  3 centered on atom Cr1 (position  0.00000 0.52808 0.00000 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=3
+       Wannier #  4 centered on atom Cr1 (position  0.00000 0.52808 0.00000 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=4
+       Wannier #  5 centered on atom Cr1 (position  0.00000 0.52808 0.00000 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=5
+       Wannier #  6 centered on atom Cr2 (position  0.50000 0.00000 0.00000 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=1
+       Wannier #  7 centered on atom Cr2 (position  0.50000 0.00000 0.00000 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=2
+       Wannier #  8 centered on atom Cr2 (position  0.50000 0.00000 0.00000 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=3
+       Wannier #  9 centered on atom Cr2 (position  0.50000 0.00000 0.00000 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=4
+       Wannier # 10 centered on atom Cr2 (position  0.50000 0.00000 0.00000 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=5
+       Wannier # 11 centered on atom Cr1 (position  0.50000 0.00000 0.72086 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=1
+       Wannier # 12 centered on atom Cr1 (position  0.50000 0.00000 0.72086 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=2
+       Wannier # 13 centered on atom Cr1 (position  0.50000 0.00000 0.72086 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=3
+       Wannier # 14 centered on atom Cr1 (position  0.50000 0.00000 0.72086 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=4
+       Wannier # 15 centered on atom Cr1 (position  0.50000 0.00000 0.72086 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=5
+       Wannier # 16 centered on atom Cr2 (position  1.00000 0.52808 0.72086 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=1
+       Wannier # 17 centered on atom Cr2 (position  1.00000 0.52808 0.72086 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=2
+       Wannier # 18 centered on atom Cr2 (position  1.00000 0.52808 0.72086 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=3
+       Wannier # 19 centered on atom Cr2 (position  1.00000 0.52808 0.72086 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=4
+       Wannier # 20 centered on atom Cr2 (position  1.00000 0.52808 0.72086 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=5
+       Wannier # 21 centered on atom O   (position  0.69206 0.32042 1.35787 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 22 centered on atom O   (position  0.69206 0.32042 1.35787 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 23 centered on atom O   (position  0.69206 0.32042 1.35787 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 24 centered on atom O   (position  0.19557 0.21082 0.08175 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 25 centered on atom O   (position  0.19557 0.21082 0.08175 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 26 centered on atom O   (position  0.19557 0.21082 0.08175 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 27 centered on atom O   (position  0.80794 0.84850 0.80471 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 28 centered on atom O   (position  0.80794 0.84850 0.80471 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 29 centered on atom O   (position  0.80794 0.84850 0.80471 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 30 centered on atom O   (position  0.30443 0.73890 0.63911 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 31 centered on atom O   (position  0.30443 0.73890 0.63911 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 32 centered on atom O   (position  0.30443 0.73890 0.63911 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 33 centered on atom O   (position  0.30794 0.73574 0.08385 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 34 centered on atom O   (position  0.30794 0.73574 0.08385 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 35 centered on atom O   (position  0.30794 0.73574 0.08385 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 36 centered on atom O   (position  0.80443 0.84534 1.35997 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 37 centered on atom O   (position  0.80443 0.84534 1.35997 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 38 centered on atom O   (position  0.80443 0.84534 1.35997 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 39 centered on atom O   (position  0.19206 0.20766 0.63701 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 40 centered on atom O   (position  0.19206 0.20766 0.63701 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 41 centered on atom O   (position  0.19206 0.20766 0.63701 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 42 centered on atom O   (position  0.69557 0.31726 0.80261 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 43 centered on atom O   (position  0.69557 0.31726 0.80261 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 44 centered on atom O   (position  0.69557 0.31726 0.80261 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 45 centered on atom O   (position  0.11166 0.48409 1.08092 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 46 centered on atom O   (position  0.11166 0.48409 1.08092 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 47 centered on atom O   (position  0.11166 0.48409 1.08092 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 48 centered on atom O   (position  0.61166 0.04399 0.36006 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 49 centered on atom O   (position  0.61166 0.04399 0.36006 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 50 centered on atom O   (position  0.61166 0.04399 0.36006 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 51 centered on atom O   (position  0.38834 1.01217 1.08166 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 52 centered on atom O   (position  0.38834 1.01217 1.08166 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 53 centered on atom O   (position  0.38834 1.01217 1.08166 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 54 centered on atom O   (position  0.88834 0.57207 0.36080 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 55 centered on atom O   (position  0.88834 0.57207 0.36080 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 56 centered on atom O   (position  0.88834 0.57207 0.36080 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+     Spin 2
+       Wannier #  1 centered on atom Cr1 (position  0.00000 0.52808 0.00000 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=1
+       Wannier #  2 centered on atom Cr1 (position  0.00000 0.52808 0.00000 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=2
+       Wannier #  3 centered on atom Cr1 (position  0.00000 0.52808 0.00000 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=3
+       Wannier #  4 centered on atom Cr1 (position  0.00000 0.52808 0.00000 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=4
+       Wannier #  5 centered on atom Cr1 (position  0.00000 0.52808 0.00000 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=5
+       Wannier #  6 centered on atom Cr2 (position  0.50000 0.00000 0.00000 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=1
+       Wannier #  7 centered on atom Cr2 (position  0.50000 0.00000 0.00000 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=2
+       Wannier #  8 centered on atom Cr2 (position  0.50000 0.00000 0.00000 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=3
+       Wannier #  9 centered on atom Cr2 (position  0.50000 0.00000 0.00000 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=4
+       Wannier # 10 centered on atom Cr2 (position  0.50000 0.00000 0.00000 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=5
+       Wannier # 11 centered on atom Cr1 (position  0.50000 0.00000 0.72086 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=1
+       Wannier # 12 centered on atom Cr1 (position  0.50000 0.00000 0.72086 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=2
+       Wannier # 13 centered on atom Cr1 (position  0.50000 0.00000 0.72086 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=3
+       Wannier # 14 centered on atom Cr1 (position  0.50000 0.00000 0.72086 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=4
+       Wannier # 15 centered on atom Cr1 (position  0.50000 0.00000 0.72086 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=5
+       Wannier # 16 centered on atom Cr2 (position  1.00000 0.52808 0.72086 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=1
+       Wannier # 17 centered on atom Cr2 (position  1.00000 0.52808 0.72086 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=2
+       Wannier # 18 centered on atom Cr2 (position  1.00000 0.52808 0.72086 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=3
+       Wannier # 19 centered on atom Cr2 (position  1.00000 0.52808 0.72086 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=4
+       Wannier # 20 centered on atom Cr2 (position  1.00000 0.52808 0.72086 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=2, m=5
+       Wannier # 21 centered on atom O   (position  0.69206 0.32042 1.35787 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 22 centered on atom O   (position  0.69206 0.32042 1.35787 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 23 centered on atom O   (position  0.69206 0.32042 1.35787 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 24 centered on atom O   (position  0.19557 0.21082 0.08175 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 25 centered on atom O   (position  0.19557 0.21082 0.08175 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 26 centered on atom O   (position  0.19557 0.21082 0.08175 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 27 centered on atom O   (position  0.80794 0.84850 0.80471 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 28 centered on atom O   (position  0.80794 0.84850 0.80471 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 29 centered on atom O   (position  0.80794 0.84850 0.80471 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 30 centered on atom O   (position  0.30443 0.73890 0.63911 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 31 centered on atom O   (position  0.30443 0.73890 0.63911 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 32 centered on atom O   (position  0.30443 0.73890 0.63911 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 33 centered on atom O   (position  0.30794 0.73574 0.08385 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 34 centered on atom O   (position  0.30794 0.73574 0.08385 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 35 centered on atom O   (position  0.30794 0.73574 0.08385 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 36 centered on atom O   (position  0.80443 0.84534 1.35997 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 37 centered on atom O   (position  0.80443 0.84534 1.35997 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 38 centered on atom O   (position  0.80443 0.84534 1.35997 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 39 centered on atom O   (position  0.19206 0.20766 0.63701 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 40 centered on atom O   (position  0.19206 0.20766 0.63701 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 41 centered on atom O   (position  0.19206 0.20766 0.63701 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 42 centered on atom O   (position  0.69557 0.31726 0.80261 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 43 centered on atom O   (position  0.69557 0.31726 0.80261 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 44 centered on atom O   (position  0.69557 0.31726 0.80261 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 45 centered on atom O   (position  0.11166 0.48409 1.08092 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 46 centered on atom O   (position  0.11166 0.48409 1.08092 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 47 centered on atom O   (position  0.11166 0.48409 1.08092 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 48 centered on atom O   (position  0.61166 0.04399 0.36006 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 49 centered on atom O   (position  0.61166 0.04399 0.36006 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 50 centered on atom O   (position  0.61166 0.04399 0.36006 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 51 centered on atom O   (position  0.38834 1.01217 1.08166 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 52 centered on atom O   (position  0.38834 1.01217 1.08166 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 53 centered on atom O   (position  0.38834 1.01217 1.08166 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+       Wannier # 54 centered on atom O   (position  0.88834 0.57207 0.36080 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=1
+       Wannier # 55 centered on atom O   (position  0.88834 0.57207 0.36080 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=2
+       Wannier # 56 centered on atom O   (position  0.88834 0.57207 0.36080 )
+         Bands for generation: from  45 to 100
+         Trial wavefunction ingredients:
+          1.0000000000 of l=1, m=3
+        Computing k-point           1
+
+     Wannier orthogonalization failed on k-point   1 with status 1
+
+        Computing k-point           2
+        Computing k-point           3
+        Computing k-point           4
+        Computing k-point           5
+        Computing k-point           6
+        Computing k-point           7
+        Computing k-point           8
+        Computing k-point           9
+
+     Wannier orthogonalization failed on k-point   9 with status 1
+
+        Computing k-point          10
+        Computing k-point          11
+        Computing k-point          12
+        Computing k-point          13
+        Computing k-point          14
+        Computing k-point          15
+        Computing k-point          16
+        Computing k-point          17
+        Computing k-point          18
+        Computing k-point          19
+        Computing k-point          20
+        Computing k-point          21
+        Computing k-point          22
+        Computing k-point          23
+        Computing k-point          24
+        Computing k-point          25
+        Computing k-point          26
+        Computing k-point          27
+        Computing k-point          28
+        Computing k-point          29
+        Computing k-point          30
+        Computing k-point          31
+        Computing k-point          32
+        Computing k-point          33
+        Computing k-point          34
+        Computing k-point          35
+        Computing k-point          36
+        Computing k-point          37
+        Computing k-point          38
+        Computing k-point          39
+        Computing k-point          40
+        Computing k-point          41
+        Computing k-point          42
+        Computing k-point          43
+        Computing k-point          44
+        Computing k-point          45
+        Computing k-point          46
+        Computing k-point          47
+        Computing k-point          48
+        Computing k-point          49
+        Computing k-point          50
+        Computing k-point          51
+        Computing k-point          52
+        Computing k-point          53
+        Computing k-point          54
+        Computing k-point          55
+        Computing k-point          56
+        Computing k-point          57
+
+     Wannier orthogonalization failed on k-point  57 with status 1
+
+        Computing k-point          58
+        Computing k-point          59
+        Computing k-point          60
+        Computing k-point          61
+        Computing k-point          62
+        Computing k-point          63
+        Computing k-point          64
+        Computing k-point          65
+        Computing k-point          66
+        Computing k-point          67
+        Computing k-point          68
+        Computing k-point          69
+        Computing k-point          70
+        Computing k-point          71
+        Computing k-point          72
+        Computing k-point          73
+        Computing k-point          74
+        Computing k-point          75
+        Computing k-point          76
+        Computing k-point          77
+        Computing k-point          78
+        Computing k-point          79
+        Computing k-point          80
+        Computing k-point          81
+        Computing k-point          82
+        Computing k-point          83
+        Computing k-point          84
+        Computing k-point          85
+        Computing k-point          86
+        Computing k-point          87
+        Computing k-point          88
+        Computing k-point          89
+        Computing k-point          90
+        Computing k-point          91
+        Computing k-point          92
+        Computing k-point          93
+        Computing k-point          94
+        Computing k-point          95
+        Computing k-point          96
+        Computing k-point          97
+        Computing k-point          98
+        Computing k-point          99
+        Computing k-point         100
+        Computing k-point         101
+        Computing k-point         102
+        Computing k-point         103
+        Computing k-point         104
+        Computing k-point         105
+        Computing k-point         106
+        Computing k-point         107
+        Computing k-point         108
+        Computing k-point         109
+        Computing k-point         110
+        Computing k-point         111
+        Computing k-point         112
+        Computing k-point         113
+        Computing k-point         114
+        Computing k-point         115
+        Computing k-point         116
+        Computing k-point         117
+        Computing k-point         118
+        Computing k-point         119
+        Computing k-point         120
+        Computing k-point         121
+        Computing k-point         122
+        Computing k-point         123
+        Computing k-point         124
+        Computing k-point         125
+        Computing k-point         126
+        Computing k-point         127
+        Computing k-point         128
+        Computing k-point         129
+        Computing k-point         130
+        Computing k-point         131
+        Computing k-point         132
+        Computing k-point         133
+        Computing k-point         134
+        Computing k-point         135
+        Computing k-point         136
+        Computing k-point         137
+        Computing k-point         138
+        Computing k-point         139
+        Computing k-point         140
+        Computing k-point         141
+        Computing k-point         142
+        Computing k-point         143
+        Computing k-point         144
+        Computing k-point         145
+        Computing k-point         146
+        Computing k-point         147
+        Computing k-point         148
+        Computing k-point         149
+        Computing k-point         150
+        Computing k-point         151
+        Computing k-point         152
+        Computing k-point         153
+        Computing k-point         154
+        Computing k-point         155
+        Computing k-point         156
+        Computing k-point         157
+        Computing k-point         158
+        Computing k-point         159
+        Computing k-point         160
+        Computing k-point         161
+        Computing k-point         162
+        Computing k-point         163
+        Computing k-point         164
+        Computing k-point         165
+        Computing k-point         166
+        Computing k-point         167
+        Computing k-point         168
+        Computing k-point         169
+        Computing k-point         170
+        Computing k-point         171
+        Computing k-point         172
+        Computing k-point         173
+        Computing k-point         174
+        Computing k-point         175
+        Computing k-point         176
+        Computing k-point         177
+        Computing k-point         178
+        Computing k-point         179
+        Computing k-point         180
+        Computing k-point         181
+        Computing k-point         182
+        Computing k-point         183
+        Computing k-point         184
+        Computing k-point         185
+        Computing k-point         186
+        Computing k-point         187
+        Computing k-point         188
+        Computing k-point         189
+        Computing k-point         190
+        Computing k-point         191
+        Computing k-point         192
+        Computing k-point         193
+        Computing k-point         194
+        Computing k-point         195
+        Computing k-point         196
+        Computing k-point         197
+        Computing k-point         198
+        Computing k-point         199
+        Computing k-point         200
+        Computing k-point         201
+        Computing k-point         202
+        Computing k-point         203
+        Computing k-point         204
+        Computing k-point         205
+        Computing k-point         206
+        Computing k-point         207
+        Computing k-point         208
+        Computing k-point         209
+        Computing k-point         210
+        Computing k-point         211
+        Computing k-point         212
+        Computing k-point         213
+        Computing k-point         214
+        Computing k-point         215
+        Computing k-point         216
+        Computing k-point         217
+        Computing k-point         218
+        Computing k-point         219
+        Computing k-point         220
+        Computing k-point         221
+        Computing k-point         222
+        Computing k-point         223
+        Computing k-point         224
+        Computing k-point         225
+        Computing k-point         226
+        Computing k-point         227
+        Computing k-point         228
+        Computing k-point         229
+        Computing k-point         230
+        Computing k-point         231
+        Computing k-point         232
+        Computing k-point         233
+        Computing k-point         234
+        Computing k-point         235
+        Computing k-point         236
+        Computing k-point         237
+        Computing k-point         238
+        Computing k-point         239
+        Computing k-point         240
+        Computing k-point         241
+        Computing k-point         242
+        Computing k-point         243
+        Computing k-point         244
+        Computing k-point         245
+        Computing k-point         246
+        Computing k-point         247
+        Computing k-point         248
+        Computing k-point         249
+        Computing k-point         250
+        Computing k-point         251
+        Computing k-point         252
+        Computing k-point         253
+        Computing k-point         254
+        Computing k-point         255
+        Computing k-point         256
+        Computing k-point         257
+        Computing k-point         258
+        Computing k-point         259
+        Computing k-point         260
+        Computing k-point         261
+        Computing k-point         262
+        Computing k-point         263
+        Computing k-point         264
+        Computing k-point         265
+        Computing k-point         266
+        Computing k-point         267
+        Computing k-point         268
+        Computing k-point         269
+        Computing k-point         270
+        Computing k-point         271
+        Computing k-point         272
+        Computing k-point         273
+        Computing k-point         274
+        Computing k-point         275
+        Computing k-point         276
+        Computing k-point         277
+        Computing k-point         278
+        Computing k-point         279
+        Computing k-point         280
+        Computing k-point         281
+        Computing k-point         282
+        Computing k-point         283
+        Computing k-point         284
+        Computing k-point         285
+        Computing k-point         286
+        Computing k-point         287
+        Computing k-point         288
+        Computing k-point         289
+
+     Wannier orthogonalization failed on k-point 289 with status 1
+
+        Computing k-point         290
+        Computing k-point         291
+        Computing k-point         292
+        Computing k-point         293
+        Computing k-point         294
+        Computing k-point         295
+        Computing k-point         296
+        Computing k-point         297
+        Computing k-point         298
+        Computing k-point         299
+        Computing k-point         300
+        Computing k-point         301
+        Computing k-point         302
+        Computing k-point         303
+        Computing k-point         304
+        Computing k-point         305
+        Computing k-point         306
+        Computing k-point         307
+        Computing k-point         308
+        Computing k-point         309
+        Computing k-point         310
+        Computing k-point         311
+        Computing k-point         312
+        Computing k-point         313
+        Computing k-point         314
+        Computing k-point         315
+        Computing k-point         316
+        Computing k-point         317
+        Computing k-point         318
+        Computing k-point         319
+        Computing k-point         320
+        Computing k-point         321
+        Computing k-point         322
+        Computing k-point         323
+        Computing k-point         324
+        Computing k-point         325
+        Computing k-point         326
+        Computing k-point         327
+        Computing k-point         328
+        Computing k-point         329
+        Computing k-point         330
+        Computing k-point         331
+        Computing k-point         332
+        Computing k-point         333
+        Computing k-point         334
+        Computing k-point         335
+        Computing k-point         336
+        Computing k-point         337
+        Computing k-point         338
+        Computing k-point         339
+        Computing k-point         340
+        Computing k-point         341
+        Computing k-point         342
+        Computing k-point         343
+        Computing k-point         344
+        Computing k-point         345
+        Computing k-point         346
+        Computing k-point         347
+        Computing k-point         348
+        Computing k-point         349
+        Computing k-point         350
+        Computing k-point         351
+        Computing k-point         352
+        Computing k-point         353
+        Computing k-point         354
+        Computing k-point         355
+        Computing k-point         356
+        Computing k-point         357
+        Computing k-point         358
+        Computing k-point         359
+        Computing k-point         360
+        Computing k-point         361
+        Computing k-point         362
+        Computing k-point         363
+        Computing k-point         364
+        Computing k-point         365
+        Computing k-point         366
+        Computing k-point         367
+        Computing k-point         368
+        Computing k-point         369
+        Computing k-point         370
+        Computing k-point         371
+        Computing k-point         372
+        Computing k-point         373
+        Computing k-point         374
+        Computing k-point         375
+        Computing k-point         376
+        Computing k-point         377
+        Computing k-point         378
+        Computing k-point         379
+        Computing k-point         380
+        Computing k-point         381
+        Computing k-point         382
+        Computing k-point         383
+        Computing k-point         384
+        Computing k-point         385
+        Computing k-point         386
+        Computing k-point         387
+        Computing k-point         388
+        Computing k-point         389
+        Computing k-point         390
+        Computing k-point         391
+        Computing k-point         392
+        Computing k-point         393
+        Computing k-point         394
+        Computing k-point         395
+        Computing k-point         396
+        Computing k-point         397
+        Computing k-point         398
+        Computing k-point         399
+        Computing k-point         400
+        Computing k-point         401
+        Computing k-point         402
+        Computing k-point         403
+        Computing k-point         404
+        Computing k-point         405
+        Computing k-point         406
+        Computing k-point         407
+        Computing k-point         408
+        Computing k-point         409
+        Computing k-point         410
+        Computing k-point         411
+        Computing k-point         412
+        Computing k-point         413
+        Computing k-point         414
+        Computing k-point         415
+        Computing k-point         416
+        Computing k-point         417
+        Computing k-point         418
+        Computing k-point         419
+        Computing k-point         420
+        Computing k-point         421
+        Computing k-point         422
+        Computing k-point         423
+        Computing k-point         424
+        Computing k-point         425
+        Computing k-point         426
+        Computing k-point         427
+        Computing k-point         428
+        Computing k-point         429
+        Computing k-point         430
+        Computing k-point         431
+        Computing k-point         432
+        Computing k-point         433
+        Computing k-point         434
+        Computing k-point         435
+        Computing k-point         436
+        Computing k-point         437
+        Computing k-point         438
+        Computing k-point         439
+        Computing k-point         440
+        Computing k-point         441
+        Computing k-point         442
+        Computing k-point         443
+        Computing k-point         444
+        Computing k-point         445
+        Computing k-point         446
+        Computing k-point         447
+        Computing k-point         448
+        Computing k-point         449
+        Computing k-point         450
+        Computing k-point         451
+        Computing k-point         452
+        Computing k-point         453
+        Computing k-point         454
+        Computing k-point         455
+        Computing k-point         456
+        Computing k-point         457
+        Computing k-point         458
+        Computing k-point         459
+        Computing k-point         460
+        Computing k-point         461
+        Computing k-point         462
+        Computing k-point         463
+        Computing k-point         464
+        Computing k-point         465
+        Computing k-point         466
+        Computing k-point         467
+        Computing k-point         468
+        Computing k-point         469
+        Computing k-point         470
+        Computing k-point         471
+        Computing k-point         472
+        Computing k-point         473
+        Computing k-point         474
+        Computing k-point         475
+        Computing k-point         476
+        Computing k-point         477
+        Computing k-point         478
+        Computing k-point         479
+        Computing k-point         480
+        Computing k-point         481
+        Computing k-point         482
+        Computing k-point         483
+        Computing k-point         484
+        Computing k-point         485
+        Computing k-point         486
+        Computing k-point         487
+        Computing k-point         488
+        Computing k-point         489
+        Computing k-point         490
+        Computing k-point         491
+        Computing k-point         492
+        Computing k-point         493
+        Computing k-point         494
+        Computing k-point         495
+        Computing k-point         496
+        Computing k-point         497
+        Computing k-point         498
+        Computing k-point         499
+        Computing k-point         500
+        Computing k-point         501
+        Computing k-point         502
+        Computing k-point         503
+        Computing k-point         504
+        Computing k-point         505
+        Computing k-point         506
+        Computing k-point         507
+        Computing k-point         508
+        Computing k-point         509
+        Computing k-point         510
+        Computing k-point         511
+        Computing k-point         512
+        Computing k-point         513
+
+     Wannier orthogonalization failed on k-point 513 with status 1
+
+        Computing k-point         514
+        Computing k-point         515
+        Computing k-point         516
+        Computing k-point         517
+        Computing k-point         518
+        Computing k-point         519
+        Computing k-point         520
+        Computing k-point         521
+
+     Wannier orthogonalization failed on k-point 521 with status 1
+
+        Computing k-point         522
+        Computing k-point         523
+        Computing k-point         524
+        Computing k-point         525
+        Computing k-point         526
+        Computing k-point         527
+        Computing k-point         528
+        Computing k-point         529
+        Computing k-point         530
+        Computing k-point         531
+        Computing k-point         532
+        Computing k-point         533
+        Computing k-point         534
+        Computing k-point         535
+        Computing k-point         536
+        Computing k-point         537
+        Computing k-point         538
+        Computing k-point         539
+        Computing k-point         540
+        Computing k-point         541
+        Computing k-point         542
+        Computing k-point         543
+        Computing k-point         544
+        Computing k-point         545
+        Computing k-point         546
+        Computing k-point         547
+        Computing k-point         548
+        Computing k-point         549
+        Computing k-point         550
+        Computing k-point         551
+        Computing k-point         552
+        Computing k-point         553
+        Computing k-point         554
+        Computing k-point         555
+        Computing k-point         556
+        Computing k-point         557
+        Computing k-point         558
+        Computing k-point         559
+        Computing k-point         560
+        Computing k-point         561
+        Computing k-point         562
+        Computing k-point         563
+        Computing k-point         564
+        Computing k-point         565
+        Computing k-point         566
+        Computing k-point         567
+        Computing k-point         568
+        Computing k-point         569
+
+     Wannier orthogonalization failed on k-point 569 with status 1
+
+        Computing k-point         570
+        Computing k-point         571
+        Computing k-point         572
+        Computing k-point         573
+        Computing k-point         574
+        Computing k-point         575
+        Computing k-point         576
+        Computing k-point         577
+        Computing k-point         578
+        Computing k-point         579
+        Computing k-point         580
+        Computing k-point         581
+        Computing k-point         582
+        Computing k-point         583
+        Computing k-point         584
+        Computing k-point         585
+        Computing k-point         586
+        Computing k-point         587
+        Computing k-point         588
+        Computing k-point         589
+        Computing k-point         590
+        Computing k-point         591
+        Computing k-point         592
+        Computing k-point         593
+        Computing k-point         594
+        Computing k-point         595
+        Computing k-point         596
+        Computing k-point         597
+        Computing k-point         598
+        Computing k-point         599
+        Computing k-point         600
+        Computing k-point         601
+        Computing k-point         602
+        Computing k-point         603
+        Computing k-point         604
+        Computing k-point         605
+        Computing k-point         606
+        Computing k-point         607
+        Computing k-point         608
+        Computing k-point         609
+        Computing k-point         610
+        Computing k-point         611
+        Computing k-point         612
+        Computing k-point         613
+        Computing k-point         614
+        Computing k-point         615
+        Computing k-point         616
+        Computing k-point         617
+        Computing k-point         618
+        Computing k-point         619
+        Computing k-point         620
+        Computing k-point         621
+        Computing k-point         622
+        Computing k-point         623
+        Computing k-point         624
+        Computing k-point         625
+        Computing k-point         626
+        Computing k-point         627
+        Computing k-point         628
+        Computing k-point         629
+        Computing k-point         630
+        Computing k-point         631
+        Computing k-point         632
+        Computing k-point         633
+        Computing k-point         634
+        Computing k-point         635
+        Computing k-point         636
+        Computing k-point         637
+        Computing k-point         638
+        Computing k-point         639
+        Computing k-point         640
+        Computing k-point         641
+        Computing k-point         642
+        Computing k-point         643
+        Computing k-point         644
+        Computing k-point         645
+        Computing k-point         646
+        Computing k-point         647
+        Computing k-point         648
+        Computing k-point         649
+        Computing k-point         650
+        Computing k-point         651
+        Computing k-point         652
+        Computing k-point         653
+        Computing k-point         654
+        Computing k-point         655
+        Computing k-point         656
+        Computing k-point         657
+        Computing k-point         658
+        Computing k-point         659
+        Computing k-point         660
+        Computing k-point         661
+        Computing k-point         662
+        Computing k-point         663
+        Computing k-point         664
+        Computing k-point         665
+        Computing k-point         666
+        Computing k-point         667
+        Computing k-point         668
+        Computing k-point         669
+        Computing k-point         670
+        Computing k-point         671
+        Computing k-point         672
+        Computing k-point         673
+        Computing k-point         674
+        Computing k-point         675
+        Computing k-point         676
+        Computing k-point         677
+        Computing k-point         678
+        Computing k-point         679
+        Computing k-point         680
+        Computing k-point         681
+        Computing k-point         682
+        Computing k-point         683
+        Computing k-point         684
+        Computing k-point         685
+        Computing k-point         686
+        Computing k-point         687
+        Computing k-point         688
+        Computing k-point         689
+        Computing k-point         690
+        Computing k-point         691
+        Computing k-point         692
+        Computing k-point         693
+        Computing k-point         694
+        Computing k-point         695
+        Computing k-point         696
+        Computing k-point         697
+        Computing k-point         698
+        Computing k-point         699
+        Computing k-point         700
+        Computing k-point         701
+        Computing k-point         702
+        Computing k-point         703
+        Computing k-point         704
+        Computing k-point         705
+        Computing k-point         706
+        Computing k-point         707
+        Computing k-point         708
+        Computing k-point         709
+        Computing k-point         710
+        Computing k-point         711
+        Computing k-point         712
+        Computing k-point         713
+        Computing k-point         714
+        Computing k-point         715
+        Computing k-point         716
+        Computing k-point         717
+        Computing k-point         718
+        Computing k-point         719
+        Computing k-point         720
+        Computing k-point         721
+        Computing k-point         722
+        Computing k-point         723
+        Computing k-point         724
+        Computing k-point         725
+        Computing k-point         726
+        Computing k-point         727
+        Computing k-point         728
+        Computing k-point         729
+        Computing k-point         730
+        Computing k-point         731
+        Computing k-point         732
+        Computing k-point         733
+        Computing k-point         734
+        Computing k-point         735
+        Computing k-point         736
+        Computing k-point         737
+        Computing k-point         738
+        Computing k-point         739
+        Computing k-point         740
+        Computing k-point         741
+        Computing k-point         742
+        Computing k-point         743
+        Computing k-point         744
+        Computing k-point         745
+        Computing k-point         746
+        Computing k-point         747
+        Computing k-point         748
+        Computing k-point         749
+        Computing k-point         750
+        Computing k-point         751
+        Computing k-point         752
+        Computing k-point         753
+        Computing k-point         754
+        Computing k-point         755
+        Computing k-point         756
+        Computing k-point         757
+        Computing k-point         758
+        Computing k-point         759
+        Computing k-point         760
+        Computing k-point         761
+        Computing k-point         762
+        Computing k-point         763
+        Computing k-point         764
+        Computing k-point         765
+        Computing k-point         766
+        Computing k-point         767
+        Computing k-point         768
+        Computing k-point         769
+        Computing k-point         770
+        Computing k-point         771
+        Computing k-point         772
+        Computing k-point         773
+        Computing k-point         774
+        Computing k-point         775
+        Computing k-point         776
+        Computing k-point         777
+        Computing k-point         778
+        Computing k-point         779
+        Computing k-point         780
+        Computing k-point         781
+        Computing k-point         782
+        Computing k-point         783
+        Computing k-point         784
+        Computing k-point         785
+        Computing k-point         786
+        Computing k-point         787
+        Computing k-point         788
+        Computing k-point         789
+        Computing k-point         790
+        Computing k-point         791
+        Computing k-point         792
+        Computing k-point         793
+        Computing k-point         794
+        Computing k-point         795
+        Computing k-point         796
+        Computing k-point         797
+        Computing k-point         798
+        Computing k-point         799
+        Computing k-point         800
+        Computing k-point         801
+
+     Wannier orthogonalization failed on k-point 801 with status 1
+
+        Computing k-point         802
+        Computing k-point         803
+        Computing k-point         804
+        Computing k-point         805
+        Computing k-point         806
+        Computing k-point         807
+        Computing k-point         808
+        Computing k-point         809
+        Computing k-point         810
+        Computing k-point         811
+        Computing k-point         812
+        Computing k-point         813
+        Computing k-point         814
+        Computing k-point         815
+        Computing k-point         816
+        Computing k-point         817
+        Computing k-point         818
+        Computing k-point         819
+        Computing k-point         820
+        Computing k-point         821
+        Computing k-point         822
+        Computing k-point         823
+        Computing k-point         824
+        Computing k-point         825
+        Computing k-point         826
+        Computing k-point         827
+        Computing k-point         828
+        Computing k-point         829
+        Computing k-point         830
+        Computing k-point         831
+        Computing k-point         832
+        Computing k-point         833
+        Computing k-point         834
+        Computing k-point         835
+        Computing k-point         836
+        Computing k-point         837
+        Computing k-point         838
+        Computing k-point         839
+        Computing k-point         840
+        Computing k-point         841
+        Computing k-point         842
+        Computing k-point         843
+        Computing k-point         844
+        Computing k-point         845
+        Computing k-point         846
+        Computing k-point         847
+        Computing k-point         848
+        Computing k-point         849
+        Computing k-point         850
+        Computing k-point         851
+        Computing k-point         852
+        Computing k-point         853
+        Computing k-point         854
+        Computing k-point         855
+        Computing k-point         856
+        Computing k-point         857
+        Computing k-point         858
+        Computing k-point         859
+        Computing k-point         860
+        Computing k-point         861
+        Computing k-point         862
+        Computing k-point         863
+        Computing k-point         864
+        Computing k-point         865
+        Computing k-point         866
+        Computing k-point         867
+        Computing k-point         868
+        Computing k-point         869
+        Computing k-point         870
+        Computing k-point         871
+        Computing k-point         872
+        Computing k-point         873
+        Computing k-point         874
+        Computing k-point         875
+        Computing k-point         876
+        Computing k-point         877
+        Computing k-point         878
+        Computing k-point         879
+        Computing k-point         880
+        Computing k-point         881
+        Computing k-point         882
+        Computing k-point         883
+        Computing k-point         884
+        Computing k-point         885
+        Computing k-point         886
+        Computing k-point         887
+        Computing k-point         888
+        Computing k-point         889
+        Computing k-point         890
+        Computing k-point         891
+        Computing k-point         892
+        Computing k-point         893
+        Computing k-point         894
+        Computing k-point         895
+        Computing k-point         896
+        Computing k-point         897
+        Computing k-point         898
+        Computing k-point         899
+        Computing k-point         900
+        Computing k-point         901
+        Computing k-point         902
+        Computing k-point         903
+        Computing k-point         904
+        Computing k-point         905
+        Computing k-point         906
+        Computing k-point         907
+        Computing k-point         908
+        Computing k-point         909
+        Computing k-point         910
+        Computing k-point         911
+        Computing k-point         912
+        Computing k-point         913
+        Computing k-point         914
+        Computing k-point         915
+        Computing k-point         916
+        Computing k-point         917
+        Computing k-point         918
+        Computing k-point         919
+        Computing k-point         920
+        Computing k-point         921
+        Computing k-point         922
+        Computing k-point         923
+        Computing k-point         924
+        Computing k-point         925
+        Computing k-point         926
+        Computing k-point         927
+        Computing k-point         928
+        Computing k-point         929
+        Computing k-point         930
+        Computing k-point         931
+        Computing k-point         932
+        Computing k-point         933
+        Computing k-point         934
+        Computing k-point         935
+        Computing k-point         936
+        Computing k-point         937
+        Computing k-point         938
+        Computing k-point         939
+        Computing k-point         940
+        Computing k-point         941
+        Computing k-point         942
+        Computing k-point         943
+        Computing k-point         944
+        Computing k-point         945
+        Computing k-point         946
+        Computing k-point         947
+        Computing k-point         948
+        Computing k-point         949
+        Computing k-point         950
+        Computing k-point         951
+        Computing k-point         952
+        Computing k-point         953
+        Computing k-point         954
+        Computing k-point         955
+        Computing k-point         956
+        Computing k-point         957
+        Computing k-point         958
+        Computing k-point         959
+        Computing k-point         960
+        Computing k-point         961
+        Computing k-point         962
+        Computing k-point         963
+        Computing k-point         964
+        Computing k-point         965
+        Computing k-point         966
+        Computing k-point         967
+        Computing k-point         968
+        Computing k-point         969
+        Computing k-point         970
+        Computing k-point         971
+        Computing k-point         972
+        Computing k-point         973
+        Computing k-point         974
+        Computing k-point         975
+        Computing k-point         976
+        Computing k-point         977
+        Computing k-point         978
+        Computing k-point         979
+        Computing k-point         980
+        Computing k-point         981
+        Computing k-point         982
+        Computing k-point         983
+        Computing k-point         984
+        Computing k-point         985
+        Computing k-point         986
+        Computing k-point         987
+        Computing k-point         988
+        Computing k-point         989
+        Computing k-point         990
+        Computing k-point         991
+        Computing k-point         992
+        Computing k-point         993
+        Computing k-point         994
+        Computing k-point         995
+        Computing k-point         996
+        Computing k-point         997
+        Computing k-point         998
+        Computing k-point         999
+        Computing k-point        1000
+        Computing k-point        1001
+        Computing k-point        1002
+        Computing k-point        1003
+        Computing k-point        1004
+        Computing k-point        1005
+        Computing k-point        1006
+        Computing k-point        1007
+        Computing k-point        1008
+        Computing k-point        1009
+        Computing k-point        1010
+        Computing k-point        1011
+        Computing k-point        1012
+        Computing k-point        1013
+        Computing k-point        1014
+        Computing k-point        1015
+        Computing k-point        1016
+        Computing k-point        1017
+        Computing k-point        1018
+        Computing k-point        1019
+        Computing k-point        1020
+        Computing k-point        1021
+        Computing k-point        1022
+        Computing k-point        1023
+        Computing k-point        1024
+
+     Spin 1:
+       Wannier#  1
+         occupation:0.442
+         energy: 11.664 eV
+       Wannier#  2
+         occupation:0.833
+         energy:  9.465 eV
+       Wannier#  3
+         occupation:0.922
+         energy:  8.944 eV
+       Wannier#  4
+         occupation:0.889
+         energy:  9.131 eV
+       Wannier#  5
+         occupation:0.425
+         energy: 11.769 eV
+       Wannier#  6
+         occupation:0.152
+         energy: 14.666 eV
+       Wannier#  7
+         occupation:0.099
+         energy: 14.951 eV
+       Wannier#  8
+         occupation:0.085
+         energy: 15.011 eV
+       Wannier#  9
+         occupation:0.090
+         energy: 14.966 eV
+       Wannier# 10
+         occupation:0.152
+         energy: 14.668 eV
+       Wannier# 11
+         occupation:0.442
+         energy: 11.664 eV
+       Wannier# 12
+         occupation:0.833
+         energy:  9.465 eV
+       Wannier# 13
+         occupation:0.922
+         energy:  8.944 eV
+       Wannier# 14
+         occupation:0.889
+         energy:  9.131 eV
+       Wannier# 15
+         occupation:0.425
+         energy: 11.769 eV
+       Wannier# 16
+         occupation:0.152
+         energy: 14.666 eV
+       Wannier# 17
+         occupation:0.099
+         energy: 14.951 eV
+       Wannier# 18
+         occupation:0.085
+         energy: 15.011 eV
+       Wannier# 19
+         occupation:0.090
+         energy: 14.966 eV
+       Wannier# 20
+         occupation:0.152
+         energy: 14.668 eV
+       Wannier# 21
+         occupation:0.966
+         energy:  8.977 eV
+       Wannier# 22
+         occupation:0.919
+         energy:  8.787 eV
+       Wannier# 23
+         occupation:0.933
+         energy:  8.665 eV
+       Wannier# 24
+         occupation:0.965
+         energy:  8.998 eV
+       Wannier# 25
+         occupation:0.934
+         energy:  8.777 eV
+       Wannier# 26
+         occupation:0.913
+         energy:  8.710 eV
+       Wannier# 27
+         occupation:0.966
+         energy:  8.977 eV
+       Wannier# 28
+         occupation:0.919
+         energy:  8.787 eV
+       Wannier# 29
+         occupation:0.933
+         energy:  8.665 eV
+       Wannier# 30
+         occupation:0.965
+         energy:  8.998 eV
+       Wannier# 31
+         occupation:0.934
+         energy:  8.777 eV
+       Wannier# 32
+         occupation:0.913
+         energy:  8.710 eV
+       Wannier# 33
+         occupation:0.966
+         energy:  8.977 eV
+       Wannier# 34
+         occupation:0.919
+         energy:  8.787 eV
+       Wannier# 35
+         occupation:0.933
+         energy:  8.665 eV
+       Wannier# 36
+         occupation:0.965
+         energy:  8.998 eV
+       Wannier# 37
+         occupation:0.934
+         energy:  8.777 eV
+       Wannier# 38
+         occupation:0.913
+         energy:  8.710 eV
+       Wannier# 39
+         occupation:0.966
+         energy:  8.977 eV
+       Wannier# 40
+         occupation:0.919
+         energy:  8.787 eV
+       Wannier# 41
+         occupation:0.933
+         energy:  8.665 eV
+       Wannier# 42
+         occupation:0.965
+         energy:  8.998 eV
+       Wannier# 43
+         occupation:0.934
+         energy:  8.777 eV
+       Wannier# 44
+         occupation:0.913
+         energy:  8.710 eV
+       Wannier# 45
+         occupation:0.882
+         energy:  8.498 eV
+       Wannier# 46
+         occupation:0.962
+         energy:  8.801 eV
+       Wannier# 47
+         occupation:0.971
+         energy:  8.968 eV
+       Wannier# 48
+         occupation:0.882
+         energy:  8.498 eV
+       Wannier# 49
+         occupation:0.962
+         energy:  8.801 eV
+       Wannier# 50
+         occupation:0.971
+         energy:  8.968 eV
+       Wannier# 51
+         occupation:0.882
+         energy:  8.498 eV
+       Wannier# 52
+         occupation:0.962
+         energy:  8.801 eV
+       Wannier# 53
+         occupation:0.971
+         energy:  8.968 eV
+       Wannier# 54
+         occupation:0.882
+         energy:  8.498 eV
+       Wannier# 55
+         occupation:0.962
+         energy:  8.801 eV
+       Wannier# 56
+         occupation:0.971
+         energy:  8.968 eV
+       Wannier occupation matrix:
+
+         0.442 -0.300  0.093 -0.041  0.025 -0.011  0.007 -0.001  0.015 -0.018  0.000 -0.001  0.001 -0.002 -0.000  0.001  0.000 -0.001 -0.000  0.000  0.001  0.000 -0.002 -0.029  0.049 -0.085 -0.002  0.001 -0.001 -0.001 -0.000  0.004 -0.037  0.086  0.054  0.001  0.001  0.001 -0.002 -0.002 -0.007 -0.000  0.001 -0.000  0.019 -0.009  0.003 -0.000  0.012 -0.004 -0.000  0.001  0.002 -0.002  0.001 -0.006
+        -0.300  0.833  0.040 -0.008  0.046  0.003  0.010 -0.005 -0.003 -0.004 -0.000 -0.002  0.000 -0.000 -0.001  0.001  0.000 -0.001 -0.001  0.001  0.001  0.001 -0.001 -0.011  0.022 -0.039 -0.001  0.001 -0.000 -0.002 -0.002 -0.001 -0.020  0.058  0.038  0.001  0.001  0.000 -0.001 -0.002 -0.000  0.000  0.001 -0.000  0.006 -0.001  0.001 -0.001  0.008 -0.002  0.000  0.001  0.001 -0.001  0.001 -0.005
+         0.093  0.040  0.922  0.086  0.181 -0.007 -0.015  0.007 -0.003 -0.006  0.000  0.001 -0.002  0.000  0.002 -0.000  0.000 -0.000 -0.001 -0.000  0.000  0.000  0.001  0.017 -0.040  0.066  0.000 -0.001  0.000 -0.002  0.001 -0.002 -0.011  0.036  0.019  0.000 -0.001 -0.000  0.000  0.001 -0.000  0.000  0.001  0.001 -0.001  0.001  0.002  0.003 -0.008  0.003  0.000 -0.000 -0.002 -0.000  0.001 -0.001
+        -0.041 -0.008  0.086  0.889 -0.243 -0.001  0.003  0.002  0.021 -0.001  0.001 -0.000  0.001 -0.001  0.000 -0.002  0.000  0.001 -0.001 -0.000 -0.000 -0.001 -0.000 -0.023  0.045 -0.073  0.001 -0.000  0.002  0.000  0.001  0.000  0.022 -0.060 -0.038 -0.000  0.000  0.000  0.000 -0.001 -0.000 -0.001 -0.001 -0.001  0.001  0.001  0.000 -0.002  0.005 -0.001  0.001  0.001  0.002  0.001 -0.001  0.003
+         0.025  0.046  0.181 -0.243  0.425 -0.016  0.017 -0.013  0.012 -0.031  0.001 -0.000  0.002 -0.003  0.002 -0.002 -0.000  0.000 -0.000 -0.000 -0.001 -0.001 -0.000 -0.047  0.082 -0.151  0.001  0.000  0.002  0.003  0.004  0.003  0.060 -0.157 -0.090 -0.000 -0.000  0.000  0.002  0.002 -0.001 -0.000 -0.002 -0.000 -0.000  0.000  0.001 -0.001  0.011 -0.005  0.000  0.001  0.002  0.004 -0.003  0.007
+        -0.011  0.003 -0.007 -0.001 -0.016  0.152 -0.036 -0.011  0.005  0.010 -0.037  0.002  0.004  0.007  0.003  0.000 -0.002 -0.003 -0.002 -0.003  0.000  0.005  0.002 -0.072 -0.062  0.039  0.002 -0.001 -0.002 -0.004 -0.000 -0.003  0.003  0.003 -0.008 -0.002 -0.001 -0.001 -0.008  0.005  0.002  0.019  0.006 -0.002 -0.000 -0.002  0.005  0.137 -0.124 -0.058 -0.002 -0.003 -0.005  0.002  0.007 -0.010
+         0.007  0.010 -0.015  0.003  0.017 -0.036  0.099  0.003 -0.001 -0.004  0.029  0.012 -0.006  0.008  0.001 -0.001  0.005 -0.003 -0.000  0.003  0.000 -0.005 -0.003 -0.088  0.067 -0.050 -0.002  0.000  0.002  0.007  0.000 -0.004  0.004  0.005  0.004  0.002  0.001  0.002 -0.006  0.004  0.001 -0.007 -0.002 -0.005  0.000  0.000 -0.004 -0.114 -0.059  0.027  0.001  0.003  0.004  0.004  0.001 -0.007
+        -0.001 -0.005  0.007  0.002 -0.013 -0.011  0.003  0.085  0.006  0.024  0.014 -0.001  0.016 -0.003  0.005 -0.002  0.002 -0.003 -0.001 -0.002  0.002 -0.002 -0.001  0.049 -0.066  0.000 -0.002  0.001  0.003 -0.002 -0.014  0.011 -0.010  0.001 -0.008  0.001  0.000  0.001  0.009  0.012  0.002  0.002 -0.002 -0.006  0.001  0.002 -0.002 -0.049  0.024 -0.107 -0.000  0.001 -0.002  0.007 -0.009 -0.012
+         0.015 -0.003 -0.003  0.021  0.012  0.005 -0.001  0.006  0.090 -0.030 -0.003 -0.009  0.001 -0.000  0.003 -0.000 -0.001  0.000 -0.000  0.000 -0.001  0.001 -0.000  0.034 -0.026 -0.127  0.001  0.001  0.001 -0.007 -0.006  0.004 -0.003  0.006 -0.017 -0.001  0.000  0.000  0.008  0.008  0.001  0.008  0.000  0.002 -0.000  0.000 -0.001  0.020  0.028 -0.022 -0.001  0.000  0.001  0.005 -0.005 -0.007
+        -0.018 -0.004 -0.006 -0.001 -0.031  0.010 -0.004  0.024 -0.030  0.152 -0.005 -0.005 -0.003  0.001 -0.003 -0.001  0.000 -0.001  0.001  0.000 -0.000  0.001  0.002 -0.075 -0.145  0.037  0.001 -0.001 -0.001 -0.008  0.003  0.000  0.009  0.000 -0.003  0.000 -0.001 -0.001 -0.003  0.008 -0.003 -0.001 -0.002  0.005 -0.001  0.000  0.000  0.018 -0.001  0.032  0.000 -0.001 -0.002 -0.002 -0.006  0.009
+         0.000 -0.000  0.000  0.001  0.001 -0.037  0.029  0.014 -0.003 -0.005  0.442 -0.300 -0.093 -0.041 -0.025 -0.011  0.007  0.001  0.015  0.018 -0.002 -0.002  0.007  0.001  0.000  0.004  0.002  0.007  0.008  0.001 -0.002 -0.004 -0.000 -0.003  0.002  0.003 -0.000  0.000  0.037 -0.086  0.054 -0.029  0.049  0.085  0.006 -0.002 -0.002 -0.191 -0.077 -0.039  0.001  0.002  0.001 -0.001  0.005 -0.007
+        -0.001 -0.002  0.001 -0.000 -0.000  0.002  0.012 -0.001 -0.009 -0.005 -0.300  0.833 -0.040 -0.008 -0.046  0.003  0.010  0.005 -0.003  0.004 -0.001 -0.002  0.000  0.002  0.002 -0.001  0.001  0.003  0.004  0.001  0.000  0.000 -0.000 -0.002  0.002  0.002  0.000  0.000  0.020 -0.058  0.038 -0.011  0.022  0.039  0.001  0.001 -0.003 -0.108 -0.039 -0.020  0.001  0.001  0.001  0.002  0.001 -0.005
+         0.001  0.000 -0.002  0.001  0.002  0.004 -0.006  0.016  0.001 -0.003 -0.093 -0.040  0.922 -0.086  0.181  0.007  0.015  0.007  0.003 -0.006 -0.000 -0.001 -0.000 -0.002  0.001  0.002  0.001  0.005  0.008  0.001  0.001 -0.000 -0.000 -0.001  0.001  0.002 -0.000 -0.001 -0.011  0.036 -0.019 -0.017  0.040  0.066  0.000 -0.002 -0.001 -0.034 -0.012 -0.004  0.000  0.001 -0.000  0.002 -0.000 -0.004
+        -0.002 -0.000  0.000 -0.001 -0.003  0.007  0.008 -0.003 -0.000  0.001 -0.041 -0.008 -0.086  0.889  0.243 -0.001  0.003 -0.002  0.021  0.001  0.000 -0.001  0.000 -0.000 -0.001  0.000  0.002  0.005  0.009 -0.000 -0.003  0.000 -0.000 -0.001 -0.001  0.001 -0.001 -0.001 -0.022  0.060 -0.038 -0.023  0.045  0.073  0.003 -0.001 -0.002 -0.015 -0.003 -0.003  0.002  0.002  0.000 -0.000  0.001 -0.000
+        -0.000 -0.001  0.002  0.000  0.002  0.003  0.001  0.005  0.003 -0.003 -0.025 -0.046  0.181  0.243  0.425  0.016 -0.017 -0.013 -0.012 -0.031 -0.002 -0.002 -0.001  0.003  0.004 -0.003 -0.003 -0.010 -0.013 -0.003 -0.002 -0.002  0.000  0.001  0.001 -0.003  0.002  0.001  0.060 -0.157  0.090  0.047 -0.082 -0.151  0.002  0.002  0.005 -0.010 -0.005 -0.000 -0.002 -0.003 -0.001  0.003 -0.003  0.004
+         0.001  0.001 -0.000 -0.002 -0.002  0.000 -0.001 -0.002 -0.000 -0.001 -0.011  0.003  0.007 -0.001  0.016  0.152 -0.036  0.011  0.005 -0.010 -0.008  0.005 -0.002  0.003 -0.004 -0.007 -0.063 -0.029  0.062 -0.001 -0.003  0.001  0.003  0.011  0.003 -0.004  0.012  0.005  0.014  0.012  0.009 -0.072 -0.062 -0.039 -0.003  0.003  0.010 -0.010 -0.006  0.005 -0.002 -0.017  0.006 -0.137  0.124 -0.058
+         0.000  0.000  0.000  0.000 -0.000 -0.002  0.005  0.002 -0.001  0.000  0.007  0.010  0.015  0.003 -0.017 -0.036  0.099 -0.003 -0.001  0.004 -0.006  0.004 -0.001 -0.004 -0.004  0.001 -0.047 -0.003 -0.060  0.001 -0.009  0.003 -0.002 -0.003  0.003 -0.007  0.006 -0.001  0.006  0.002  0.005 -0.088  0.067  0.050 -0.000  0.009  0.010  0.000 -0.001 -0.001 -0.004 -0.005  0.003  0.114  0.059  0.027
+        -0.001 -0.001 -0.000  0.001  0.000 -0.003 -0.003 -0.003  0.000 -0.001  0.001  0.005  0.007 -0.002 -0.013  0.011 -0.003  0.085 -0.006  0.024 -0.009 -0.012  0.002  0.006 -0.003  0.001  0.078 -0.040  0.065 -0.005 -0.000 -0.009  0.005  0.002 -0.006  0.007  0.000 -0.003 -0.002  0.007  0.013 -0.049  0.066  0.000  0.003  0.004 -0.007  0.002  0.000 -0.001  0.005  0.003  0.008 -0.049  0.024  0.107
+        -0.000 -0.001 -0.001 -0.001 -0.000 -0.002 -0.000 -0.001 -0.000  0.001  0.015 -0.003  0.003  0.021 -0.012  0.005 -0.001 -0.006  0.090  0.030  0.008  0.008 -0.001 -0.001  0.004  0.005 -0.042 -0.116  0.002  0.000  0.003  0.004  0.004 -0.000 -0.002 -0.011  0.010  0.001 -0.002 -0.009  0.002  0.034 -0.026  0.127 -0.002  0.003  0.008  0.001 -0.006  0.007 -0.000 -0.016  0.007 -0.020 -0.028 -0.022
+         0.000  0.001 -0.000 -0.000 -0.000 -0.003  0.003 -0.002  0.000  0.000  0.018  0.004 -0.006  0.001 -0.031 -0.010  0.004  0.024  0.030  0.152  0.003 -0.008 -0.003  0.002 -0.001  0.001 -0.065 -0.016  0.150 -0.002 -0.002  0.004  0.003  0.002 -0.001  0.005 -0.002 -0.000 -0.007  0.005  0.009  0.075  0.145  0.037  0.007  0.002 -0.014 -0.004  0.005  0.021 -0.003 -0.001 -0.005  0.018 -0.001 -0.032
+         0.001  0.001  0.000 -0.000 -0.001  0.000  0.000  0.002 -0.001 -0.000 -0.002 -0.001 -0.000  0.000 -0.002 -0.008 -0.006 -0.009  0.008  0.003  0.966  0.015  0.006  0.000  0.000 -0.000  0.002  0.000  0.001 -0.002  0.001 -0.001  0.000 -0.000 -0.002  0.004 -0.004  0.009 -0.001  0.001 -0.001 -0.003  0.000 -0.002  0.002  0.001  0.000 -0.001 -0.000  0.000  0.000  0.000 -0.002 -0.002  0.001  0.002
+         0.000  0.001  0.000 -0.001 -0.001  0.005 -0.005 -0.002  0.001  0.001 -0.002 -0.002 -0.001 -0.001 -0.002  0.005  0.004 -0.012  0.008 -0.008  0.015  0.919 -0.044 -0.000  0.001 -0.001  0.002  0.002  0.003  0.000 -0.000  0.002 -0.000 -0.002 -0.001 -0.007  0.016 -0.029  0.002  0.000  0.000  0.001  0.006  0.000  0.004 -0.001  0.003 -0.002  0.001  0.001 -0.002  0.001  0.000 -0.001  0.001  0.001
+        -0.002 -0.001  0.001 -0.000 -0.000  0.002 -0.003 -0.001 -0.000  0.002  0.007  0.000 -0.000  0.000 -0.001 -0.002 -0.001  0.002 -0.001 -0.003  0.006 -0.044  0.933 -0.000  0.001 -0.001 -0.000  0.003 -0.000 -0.001 -0.001  0.000 -0.002 -0.001  0.001 -0.004  0.007 -0.023  0.004 -0.000  0.003  0.002  0.001  0.000  0.002 -0.002  0.006  0.002  0.002  0.002  0.003 -0.002 -0.003 -0.000  0.001 -0.001
+        -0.029 -0.011  0.017 -0.023 -0.047 -0.072 -0.088  0.049  0.034 -0.075  0.001  0.002 -0.002 -0.000  0.003  0.003 -0.004  0.006 -0.001  0.002  0.000 -0.000 -0.000  0.965  0.004 -0.010  0.000  0.000 -0.002  0.001 -0.002 -0.000  0.004 -0.007 -0.004  0.000 -0.000  0.000 -0.003  0.001 -0.002  0.000  0.001  0.001 -0.001 -0.001 -0.001  0.004 -0.017  0.007  0.002  0.000 -0.000  0.006  0.002 -0.001
+         0.049  0.022 -0.040  0.045  0.082 -0.062  0.067 -0.066 -0.026 -0.145  0.000  0.002  0.001 -0.001  0.004 -0.004 -0.004 -0.003  0.004 -0.001  0.000  0.001  0.001  0.004  0.934  0.045 -0.000  0.001 -0.001 -0.001 -0.000 -0.000 -0.004  0.016  0.007 -0.000 -0.001  0.000  0.000  0.006 -0.001  0.001  0.001  0.000  0.002 -0.001  0.001  0.023 -0.004 -0.008  0.000 -0.001 -0.002  0.000  0.000 -0.001
+        -0.085 -0.039  0.066 -0.073 -0.151  0.039 -0.050  0.000 -0.127  0.037  0.004 -0.001  0.002  0.000 -0.003 -0.007  0.001  0.001  0.005  0.001 -0.000 -0.001 -0.001 -0.010  0.045  0.913 -0.000  0.001  0.001  0.001  0.001  0.002  0.009 -0.029 -0.023  0.000  0.000  0.001  0.002 -0.000  0.000 -0.001 -0.002 -0.003  0.002 -0.001  0.000 -0.013  0.011 -0.003  0.001  0.001  0.002 -0.000 -0.001  0.001
+        -0.002 -0.001  0.000  0.001  0.001  0.002 -0.002 -0.002  0.001  0.001  0.002  0.001  0.001  0.002 -0.003 -0.063 -0.047  0.078 -0.042 -0.065  0.002  0.002 -0.000  0.000 -0.000 -0.000  0.966  0.015 -0.006  0.001  0.006  0.013 -0.001  0.002  0.004 -0.003  0.000  0.002  0.003  0.000  0.003  0.000  0.003  0.007  0.002 -0.002  0.002 -0.002  0.001  0.002  0.013  0.000  0.003 -0.008  0.005 -0.014
+         0.001  0.001 -0.001 -0.000  0.000 -0.001  0.000  0.001  0.001 -0.001  0.007  0.003  0.005  0.005 -0.010 -0.029 -0.003 -0.040 -0.116 -0.016  0.000  0.002  0.003  0.000  0.001  0.001  0.015  0.919  0.044  0.009 -0.018 -0.028  0.001  0.000 -0.000  0.001  0.006 -0.000  0.000 -0.003 -0.003  0.003 -0.000  0.013  0.003 -0.000 -0.001  0.001 -0.001  0.002 -0.033 -0.014 -0.003 -0.008  0.002  0.001
+        -0.001 -0.000  0.000  0.002  0.002 -0.002  0.002  0.003  0.001 -0.001  0.008  0.004  0.008  0.009 -0.013  0.062 -0.060  0.065  0.002  0.150  0.001  0.003 -0.000 -0.002 -0.001  0.001 -0.006  0.044  0.933 -0.003  0.007  0.017 -0.001  0.000  0.003 -0.002 -0.001  0.000  0.003 -0.003 -0.002 -0.008 -0.025 -0.007  0.002 -0.002  0.004  0.006  0.001 -0.003  0.022  0.008  0.003  0.022 -0.006  0.003
+        -0.001 -0.002 -0.002  0.000  0.003 -0.004  0.007 -0.002 -0.007 -0.008  0.001  0.001  0.001 -0.000 -0.003 -0.001  0.001 -0.005  0.000 -0.002 -0.002  0.000 -0.001  0.001 -0.001  0.001  0.001  0.009 -0.003  0.965  0.004  0.010 -0.003  0.001  0.002  0.000  0.001 -0.001  0.000  0.003 -0.008  0.002 -0.002 -0.001 -0.009  0.016  0.009  0.003 -0.000  0.001 -0.014 -0.002 -0.002 -0.001  0.001  0.003
+        -0.000 -0.002  0.001  0.001  0.004 -0.000  0.000 -0.014 -0.006  0.003 -0.002  0.000  0.001 -0.003 -0.002 -0.003 -0.009 -0.000  0.003 -0.002  0.001 -0.000 -0.001 -0.002 -0.000  0.001  0.006 -0.018  0.007  0.004  0.934 -0.045  0.000  0.006  0.001  0.001  0.001 -0.002  0.003 -0.000 -0.025 -0.002  0.004  0.001 -0.019  0.002 -0.007 -0.001 -0.001 -0.000  0.018  0.005 -0.000 -0.003  0.000  0.003
+         0.004 -0.001 -0.002  0.000  0.003 -0.003 -0.004  0.011  0.004  0.000 -0.004  0.000 -0.000  0.000 -0.002  0.001  0.003 -0.009  0.004  0.004 -0.001  0.002  0.000 -0.000 -0.000  0.002  0.013 -0.028  0.017  0.010 -0.045  0.913 -0.002  0.000  0.000  0.001  0.000 -0.003  0.007  0.013 -0.007 -0.001  0.001 -0.001 -0.016  0.004  0.002 -0.001 -0.000  0.001  0.030  0.011  0.003 -0.004 -0.000  0.003
+        -0.037 -0.020 -0.011  0.022  0.060  0.003  0.004 -0.010 -0.003  0.009 -0.000 -0.000 -0.000 -0.000  0.000  0.003 -0.002  0.005  0.004  0.003  0.000 -0.000 -0.002  0.004 -0.004  0.009 -0.001  0.001 -0.001 -0.003  0.000 -0.002  0.966  0.015  0.006  0.000  0.000 -0.000  0.002  0.000  0.001 -0.002  0.001 -0.001 -0.002  0.001  0.002  0.000  0.000 -0.002 -0.001 -0.000  0.000  0.002  0.001  0.000
+         0.086  0.058  0.036 -0.060 -0.157  0.003  0.005  0.001  0.006  0.000 -0.003 -0.002 -0.001 -0.001  0.001  0.011 -0.003  0.002 -0.000  0.002 -0.000 -0.002 -0.001 -0.007  0.016 -0.029  0.002  0.000  0.000  0.001  0.006  0.000  0.015  0.919 -0.044 -0.000  0.001 -0.001  0.002  0.002  0.003  0.000 -0.000  0.002 -0.001  0.001  0.002 -0.002  0.001  0.000 -0.002  0.001  0.001  0.004 -0.001  0.003
+         0.054  0.038  0.019 -0.038 -0.090 -0.008  0.004 -0.008 -0.017 -0.003  0.002  0.002  0.001 -0.001  0.001  0.003  0.003 -0.006 -0.002 -0.001 -0.002 -0.001  0.001 -0.004  0.007 -0.023  0.004 -0.000  0.003  0.002  0.001  0.000  0.006 -0.044  0.933 -0.000  0.001 -0.001 -0.000  0.003 -0.000 -0.001 -0.001  0.000 -0.000  0.001 -0.001  0.003 -0.002 -0.003  0.002  0.002  0.002  0.002 -0.002  0.006
+         0.001  0.001  0.000 -0.000 -0.000 -0.002  0.002  0.001 -0.001  0.000  0.003  0.002  0.002  0.001 -0.003 -0.004 -0.007  0.007 -0.011  0.005  0.004 -0.007 -0.004  0.000 -0.000  0.000 -0.003  0.001 -0.002  0.000  0.001  0.001  0.000 -0.000 -0.000  0.965  0.004 -0.010  0.000  0.000 -0.002  0.001 -0.002 -0.000  0.006  0.002 -0.001  0.002  0.000 -0.000  0.004 -0.017  0.007 -0.001 -0.001 -0.001
+         0.001  0.001 -0.001  0.000 -0.000 -0.001  0.001  0.000  0.000 -0.001 -0.000  0.000 -0.000 -0.001  0.002  0.012  0.006  0.000  0.010 -0.002 -0.004  0.016  0.007 -0.000 -0.001  0.000  0.000  0.006 -0.001  0.001  0.001  0.000  0.000  0.001  0.001  0.004  0.934  0.045 -0.000  0.001 -0.001 -0.001 -0.000 -0.000  0.000  0.000 -0.001  0.000 -0.001 -0.002  0.023 -0.004 -0.008  0.002 -0.001  0.002
+         0.001  0.000 -0.000  0.000  0.000 -0.001  0.002  0.001  0.000 -0.001  0.000  0.000 -0.001 -0.001  0.001  0.005 -0.001 -0.003  0.001 -0.000  0.009 -0.029 -0.023  0.000  0.000  0.001  0.002 -0.000  0.000 -0.001 -0.002 -0.003 -0.000 -0.001 -0.001 -0.010  0.045  0.913 -0.000  0.001  0.001  0.001  0.001  0.002 -0.000 -0.001  0.001  0.001  0.001  0.002 -0.013  0.011 -0.003  0.002 -0.001  0.000
+        -0.002 -0.001  0.000  0.000  0.002 -0.008 -0.006  0.009  0.008 -0.003  0.037  0.020 -0.011 -0.022  0.060  0.014  0.006 -0.002 -0.002 -0.007 -0.001  0.002  0.004 -0.003  0.000  0.002  0.003  0.000  0.003  0.000  0.003  0.007  0.002  0.002 -0.000  0.000 -0.000 -0.000  0.966  0.015 -0.006  0.001  0.006  0.013 -0.008  0.005 -0.014  0.013  0.000  0.003 -0.002  0.001  0.002  0.002 -0.002  0.002
+        -0.002 -0.002  0.001 -0.001  0.002  0.005  0.004  0.012  0.008  0.008 -0.086 -0.058  0.036  0.060 -0.157  0.012  0.002  0.007 -0.009  0.005  0.001  0.000 -0.000  0.001  0.006 -0.000  0.000 -0.003 -0.003  0.003 -0.000  0.013  0.000  0.002  0.003  0.000  0.001  0.001  0.015  0.919  0.044  0.009 -0.018 -0.028 -0.008  0.002  0.001 -0.033 -0.014 -0.003  0.001 -0.001  0.002  0.003 -0.000 -0.001
+        -0.007 -0.000 -0.000 -0.000 -0.001  0.002  0.001  0.002  0.001 -0.003  0.054  0.038 -0.019 -0.038  0.090  0.009  0.005  0.013  0.002  0.009 -0.001  0.000  0.003 -0.002 -0.001  0.000  0.003 -0.003 -0.002 -0.008 -0.025 -0.007  0.001  0.003 -0.000 -0.002 -0.001  0.001 -0.006  0.044  0.933 -0.003  0.007  0.017  0.022 -0.006  0.003  0.022  0.008  0.003  0.006  0.001 -0.003  0.002 -0.002  0.004
+        -0.000  0.000  0.000 -0.001 -0.000  0.019 -0.007  0.002  0.008 -0.001 -0.029 -0.011 -0.017 -0.023  0.047 -0.072 -0.088 -0.049  0.034  0.075 -0.003  0.001  0.002  0.000  0.001 -0.001  0.000  0.003 -0.008  0.002 -0.002 -0.001 -0.002  0.000 -0.001  0.001 -0.001  0.001  0.001  0.009 -0.003  0.965  0.004  0.010 -0.001  0.001  0.003 -0.014 -0.002 -0.002  0.003 -0.000  0.001 -0.009  0.016  0.009
+         0.001  0.001  0.001 -0.001 -0.002  0.006 -0.002 -0.002  0.000 -0.002  0.049  0.022  0.040  0.045 -0.082 -0.062  0.067  0.066 -0.026  0.145  0.000  0.006  0.001  0.001  0.001 -0.002  0.003 -0.000 -0.025 -0.002  0.004  0.001  0.001 -0.000 -0.001 -0.002 -0.000  0.001  0.006 -0.018  0.007  0.004  0.934 -0.045 -0.003  0.000  0.003  0.018  0.005 -0.000 -0.001 -0.001 -0.000 -0.019  0.002 -0.007
+        -0.000 -0.000  0.001 -0.001 -0.000 -0.002 -0.005 -0.006  0.002  0.005  0.085  0.039  0.066  0.073 -0.151 -0.039  0.050  0.000  0.127  0.037 -0.002  0.000  0.000  0.001  0.000 -0.003  0.007  0.013 -0.007 -0.001  0.001 -0.001 -0.001  0.002  0.000 -0.000 -0.000  0.002  0.013 -0.028  0.017  0.010 -0.045  0.913 -0.004 -0.000  0.003  0.030  0.011  0.003 -0.001 -0.000  0.001 -0.016  0.004  0.002
+         0.019  0.006 -0.001  0.001 -0.000 -0.000  0.000  0.001 -0.000 -0.001  0.006  0.001  0.000  0.003  0.002 -0.003 -0.000  0.003 -0.002  0.007  0.002  0.004  0.002 -0.001  0.002  0.002  0.002  0.003  0.002 -0.009 -0.019 -0.016 -0.002 -0.001 -0.000  0.006  0.000 -0.000 -0.008 -0.008  0.022 -0.001 -0.003 -0.004  0.882 -0.013  0.006  0.001 -0.004  0.002 -0.001  0.000  0.001 -0.001 -0.001  0.000
+        -0.009 -0.001  0.001  0.001  0.000 -0.002  0.000  0.002  0.000  0.000 -0.002  0.001 -0.002 -0.001  0.002  0.003  0.009  0.004  0.003  0.002  0.001 -0.001 -0.002 -0.001 -0.001 -0.001 -0.002 -0.000 -0.002  0.016  0.002  0.004  0.001  0.001  0.001  0.002  0.000 -0.001  0.005  0.002 -0.006  0.001  0.000 -0.000 -0.013  0.962  0.009  0.000  0.001 -0.001  0.001  0.002 -0.002 -0.001 -0.002 -0.002
+         0.003  0.001  0.002  0.000  0.001  0.005 -0.004 -0.002 -0.001  0.000 -0.002 -0.003 -0.001 -0.002  0.005  0.010  0.010 -0.007  0.008 -0.014  0.000  0.003  0.006 -0.001  0.001  0.000  0.002 -0.001  0.004  0.009 -0.007  0.002  0.002  0.002 -0.001 -0.001 -0.001  0.001 -0.014  0.001  0.003  0.003  0.003  0.003  0.006  0.009  0.971 -0.003 -0.001 -0.001 -0.003 -0.000  0.002  0.000 -0.002  0.002
+        -0.000 -0.001  0.003 -0.002 -0.001  0.137 -0.114 -0.049  0.020  0.018 -0.191 -0.108 -0.034 -0.015 -0.010 -0.010  0.000  0.002  0.001 -0.004 -0.001 -0.002  0.002  0.004  0.023 -0.013 -0.002  0.001  0.006  0.003 -0.001 -0.001  0.000 -0.002  0.003  0.002  0.000  0.001  0.013 -0.033  0.022 -0.014  0.018  0.030  0.001  0.000 -0.003  0.882 -0.013 -0.006  0.002  0.002  0.002 -0.001  0.001 -0.003
+         0.012  0.008 -0.008  0.005  0.011 -0.124 -0.059  0.024  0.028 -0.001 -0.077 -0.039 -0.012 -0.003 -0.005 -0.006 -0.001  0.000 -0.006  0.005 -0.000  0.001  0.002 -0.017 -0.004  0.011  0.001 -0.001  0.001 -0.000 -0.001 -0.000  0.000  0.001 -0.002  0.000 -0.001  0.001  0.000 -0.014  0.008 -0.002  0.005  0.011 -0.004  0.001 -0.001 -0.013  0.962 -0.009  0.002 -0.000  0.000  0.000  0.002 -0.000
+        -0.004 -0.002  0.003 -0.001 -0.005 -0.058  0.027 -0.107 -0.022  0.032 -0.039 -0.020 -0.004 -0.003 -0.000  0.005 -0.001 -0.001  0.007  0.021  0.000  0.001  0.002  0.007 -0.008 -0.003  0.002  0.002 -0.003  0.001 -0.000  0.001 -0.002  0.000 -0.003 -0.000 -0.002  0.002  0.003 -0.003  0.003 -0.002 -0.000  0.003  0.002 -0.001 -0.001 -0.006 -0.009  0.971  0.002  0.000 -0.000  0.001 -0.002  0.002
+        -0.000  0.000  0.000  0.001  0.000 -0.002  0.001 -0.000 -0.001  0.000  0.001  0.001  0.000  0.002 -0.002 -0.002 -0.004  0.005 -0.000 -0.003  0.000 -0.002  0.003  0.002  0.000  0.001  0.013 -0.033  0.022 -0.014  0.018  0.030 -0.001 -0.002  0.002  0.004  0.023 -0.013 -0.002  0.001  0.006  0.003 -0.001 -0.001 -0.001  0.001 -0.003  0.002  0.002  0.002  0.882 -0.013 -0.006  0.001  0.000 -0.003
+         0.001  0.001 -0.000  0.001  0.001 -0.003  0.003  0.001  0.000 -0.001  0.002  0.001  0.001  0.002 -0.003 -0.017 -0.005  0.003 -0.016 -0.001  0.000  0.001 -0.002  0.000 -0.001  0.001  0.000 -0.014  0.008 -0.002  0.005  0.011 -0.000  0.001  0.002 -0.017 -0.004  0.011  0.001 -0.001  0.001 -0.000 -0.001 -0.000  0.000  0.002 -0.000  0.002 -0.000  0.000 -0.013  0.962 -0.009 -0.004  0.001 -0.001
+         0.002  0.001 -0.002  0.002  0.002 -0.005  0.004 -0.002  0.001 -0.002  0.001  0.001 -0.000  0.000 -0.001  0.006  0.003  0.008  0.007 -0.005 -0.002  0.000 -0.003 -0.000 -0.002  0.002  0.003 -0.003  0.003 -0.002 -0.000  0.003  0.000  0.001  0.002  0.007 -0.008 -0.003  0.002  0.002 -0.003  0.001 -0.000  0.001  0.001 -0.002  0.002  0.002  0.000 -0.000 -0.006 -0.009  0.971  0.002 -0.001 -0.001
+        -0.002 -0.001 -0.000  0.001  0.004  0.002  0.004  0.007  0.005 -0.002 -0.001  0.002  0.002 -0.000  0.003 -0.137  0.114 -0.049 -0.020  0.018 -0.002 -0.001 -0.000  0.006  0.000 -0.000 -0.008 -0.008  0.022 -0.001 -0.003 -0.004  0.002  0.004  0.002 -0.001  0.002  0.002  0.002  0.003  0.002 -0.009 -0.019 -0.016 -0.001 -0.001  0.000 -0.001  0.000  0.001  0.001 -0.004  0.002  0.882 -0.013  0.006
+         0.001  0.001  0.001 -0.001 -0.003  0.007  0.001 -0.009 -0.005 -0.006  0.005  0.001 -0.000  0.001 -0.003  0.124  0.059  0.024 -0.028 -0.001  0.001  0.001  0.001  0.002  0.000 -0.001  0.005  0.002 -0.006  0.001  0.000 -0.000  0.001 -0.001 -0.002 -0.001 -0.001 -0.001 -0.002 -0.000 -0.002  0.016  0.002  0.004 -0.001 -0.002 -0.002  0.001  0.002 -0.002  0.000  0.001 -0.001 -0.013  0.962  0.009
+        -0.006 -0.005 -0.001  0.003  0.007 -0.010 -0.007 -0.012 -0.007  0.009 -0.007 -0.005 -0.004 -0.000  0.004 -0.058  0.027  0.107 -0.022 -0.032  0.002  0.001 -0.001 -0.001 -0.001  0.001 -0.014  0.001  0.003  0.003  0.003  0.003  0.000  0.003  0.006 -0.001  0.002  0.000  0.002 -0.001  0.004  0.009 -0.007  0.002  0.000 -0.002  0.002 -0.003 -0.000  0.002 -0.003 -0.001 -0.001  0.006  0.009  0.971
+
+     Spin 2:
+       Wannier#  1
+         occupation:0.152
+         energy: 14.652 eV
+       Wannier#  2
+         occupation:0.099
+         energy: 14.950 eV
+       Wannier#  3
+         occupation:0.085
+         energy: 14.997 eV
+       Wannier#  4
+         occupation:0.090
+         energy: 14.967 eV
+       Wannier#  5
+         occupation:0.152
+         energy: 14.664 eV
+       Wannier#  6
+         occupation:0.443
+         energy: 11.675 eV
+       Wannier#  7
+         occupation:0.835
+         energy:  9.470 eV
+       Wannier#  8
+         occupation:0.919
+         energy:  8.970 eV
+       Wannier#  9
+         occupation:0.888
+         energy:  9.143 eV
+       Wannier# 10
+         occupation:0.425
+         energy: 11.776 eV
+       Wannier# 11
+         occupation:0.152
+         energy: 14.652 eV
+       Wannier# 12
+         occupation:0.099
+         energy: 14.950 eV
+       Wannier# 13
+         occupation:0.085
+         energy: 14.997 eV
+       Wannier# 14
+         occupation:0.090
+         energy: 14.967 eV
+       Wannier# 15
+         occupation:0.152
+         energy: 14.664 eV
+       Wannier# 16
+         occupation:0.443
+         energy: 11.675 eV
+       Wannier# 17
+         occupation:0.835
+         energy:  9.470 eV
+       Wannier# 18
+         occupation:0.919
+         energy:  8.970 eV
+       Wannier# 19
+         occupation:0.888
+         energy:  9.143 eV
+       Wannier# 20
+         occupation:0.425
+         energy: 11.776 eV
+       Wannier# 21
+         occupation:0.966
+         energy:  8.988 eV
+       Wannier# 22
+         occupation:0.935
+         energy:  8.781 eV
+       Wannier# 23
+         occupation:0.913
+         energy:  8.708 eV
+       Wannier# 24
+         occupation:0.966
+         energy:  8.988 eV
+       Wannier# 25
+         occupation:0.919
+         energy:  8.786 eV
+       Wannier# 26
+         occupation:0.932
+         energy:  8.661 eV
+       Wannier# 27
+         occupation:0.966
+         energy:  8.988 eV
+       Wannier# 28
+         occupation:0.935
+         energy:  8.781 eV
+       Wannier# 29
+         occupation:0.913
+         energy:  8.708 eV
+       Wannier# 30
+         occupation:0.966
+         energy:  8.988 eV
+       Wannier# 31
+         occupation:0.919
+         energy:  8.786 eV
+       Wannier# 32
+         occupation:0.932
+         energy:  8.661 eV
+       Wannier# 33
+         occupation:0.966
+         energy:  8.988 eV
+       Wannier# 34
+         occupation:0.935
+         energy:  8.781 eV
+       Wannier# 35
+         occupation:0.913
+         energy:  8.708 eV
+       Wannier# 36
+         occupation:0.966
+         energy:  8.988 eV
+       Wannier# 37
+         occupation:0.919
+         energy:  8.786 eV
+       Wannier# 38
+         occupation:0.932
+         energy:  8.661 eV
+       Wannier# 39
+         occupation:0.966
+         energy:  8.988 eV
+       Wannier# 40
+         occupation:0.935
+         energy:  8.781 eV
+       Wannier# 41
+         occupation:0.913
+         energy:  8.708 eV
+       Wannier# 42
+         occupation:0.966
+         energy:  8.988 eV
+       Wannier# 43
+         occupation:0.919
+         energy:  8.786 eV
+       Wannier# 44
+         occupation:0.932
+         energy:  8.661 eV
+       Wannier# 45
+         occupation:0.883
+         energy:  8.496 eV
+       Wannier# 46
+         occupation:0.963
+         energy:  8.800 eV
+       Wannier# 47
+         occupation:0.971
+         energy:  8.967 eV
+       Wannier# 48
+         occupation:0.883
+         energy:  8.496 eV
+       Wannier# 49
+         occupation:0.963
+         energy:  8.800 eV
+       Wannier# 50
+         occupation:0.971
+         energy:  8.967 eV
+       Wannier# 51
+         occupation:0.883
+         energy:  8.496 eV
+       Wannier# 52
+         occupation:0.963
+         energy:  8.800 eV
+       Wannier# 53
+         occupation:0.971
+         energy:  8.967 eV
+       Wannier# 54
+         occupation:0.883
+         energy:  8.496 eV
+       Wannier# 55
+         occupation:0.963
+         energy:  8.800 eV
+       Wannier# 56
+         occupation:0.971
+         energy:  8.967 eV
+       Wannier occupation matrix:
+
+         0.152  0.035 -0.011  0.005 -0.008 -0.011 -0.010  0.000 -0.001 -0.014 -0.001  0.004 -0.002  0.003  0.001  0.000 -0.001  0.001  0.000 -0.001  0.001 -0.001 -0.001 -0.064  0.031 -0.062 -0.002  0.001 -0.001 -0.008 -0.005  0.003 -0.072  0.063  0.037  0.000  0.001  0.001 -0.004 -0.013 -0.005  0.003 -0.000  0.003  0.010 -0.011  0.007 -0.003  0.017 -0.006 -0.000  0.002  0.004 -0.003 -0.003 -0.011
+         0.035  0.099 -0.004  0.001 -0.004 -0.006  0.008 -0.008 -0.007 -0.013  0.001  0.001  0.002 -0.002  0.002  0.002 -0.002 -0.000  0.000 -0.000  0.000 -0.001  0.001  0.049 -0.002 -0.059  0.002 -0.002 -0.001  0.006  0.005 -0.001  0.086  0.070  0.049  0.001  0.000 -0.000  0.006  0.005 -0.001 -0.000 -0.002  0.001  0.021 -0.008  0.008  0.004 -0.005  0.003 -0.000 -0.000  0.003 -0.000  0.009  0.010
+        -0.011 -0.004  0.085  0.005 -0.024  0.006 -0.011  0.011 -0.004  0.021 -0.003  0.001  0.001  0.001 -0.002 -0.000 -0.001  0.000 -0.000  0.001  0.002  0.000  0.002 -0.080 -0.041  0.063  0.001  0.000 -0.000  0.009 -0.012  0.001  0.048  0.066 -0.001 -0.001  0.000 -0.001 -0.007 -0.001 -0.002 -0.000  0.002 -0.000 -0.010  0.005  0.001 -0.005  0.004  0.008  0.000 -0.002 -0.003 -0.003  0.004 -0.008
+         0.005  0.001  0.005  0.090  0.031 -0.017 -0.001  0.004  0.015 -0.016  0.000  0.004 -0.001  0.003  0.002 -0.001  0.001  0.001  0.000  0.000 -0.000 -0.002  0.001 -0.041  0.120  0.002  0.000 -0.001 -0.001  0.009 -0.008  0.002  0.036  0.022 -0.124 -0.001 -0.000 -0.001 -0.010 -0.009 -0.001  0.001 -0.001 -0.001  0.005 -0.001  0.004 -0.000  0.014 -0.006  0.000  0.000 -0.000 -0.001 -0.004 -0.007
+        -0.008 -0.004 -0.024  0.031  0.152 -0.017 -0.008 -0.003 -0.009 -0.031  0.001  0.003 -0.002  0.001  0.001 -0.000  0.003 -0.001 -0.000 -0.000 -0.001 -0.001 -0.001 -0.065  0.019 -0.150  0.002  0.000  0.001  0.003  0.008  0.003  0.075 -0.146 -0.034  0.000 -0.001 -0.001  0.005  0.003  0.001  0.001 -0.005 -0.002 -0.003  0.001  0.002 -0.003  0.001  0.004  0.001  0.001  0.001  0.006 -0.002  0.014
+        -0.011 -0.006  0.006 -0.017 -0.017  0.443  0.298  0.094 -0.046 -0.031 -0.037 -0.029 -0.014 -0.003 -0.004  0.002  0.002  0.000  0.000 -0.000  0.005  0.003  0.001 -0.037 -0.086  0.056  0.000  0.001 -0.001  0.000 -0.003  0.002 -0.001 -0.002 -0.003 -0.000  0.001 -0.000 -0.001  0.001  0.003  0.024  0.006 -0.004 -0.001 -0.001  0.002  0.190 -0.077 -0.040 -0.002 -0.002 -0.004  0.001  0.005 -0.006
+        -0.010  0.008 -0.011 -0.001 -0.008  0.298  0.835 -0.042  0.013  0.044 -0.002  0.011 -0.002  0.009  0.005  0.001 -0.003  0.000 -0.000  0.000 -0.003 -0.002  0.000  0.019  0.056 -0.038  0.000 -0.001  0.000 -0.000  0.002 -0.002  0.001 -0.000 -0.000  0.000 -0.001  0.000  0.002 -0.003  0.001 -0.013 -0.002  0.006 -0.000  0.001 -0.001 -0.108  0.039  0.020  0.001  0.001  0.003  0.001 -0.001  0.004
+         0.000 -0.008  0.011  0.004 -0.003  0.094 -0.042  0.919  0.089 -0.183 -0.003 -0.006  0.016 -0.001  0.003  0.002 -0.002  0.001  0.000  0.001 -0.001 -0.001  0.000 -0.011 -0.036  0.020  0.000  0.000  0.000 -0.000  0.001 -0.001  0.001 -0.001  0.000  0.000 -0.001  0.000 -0.002 -0.001 -0.002 -0.006 -0.001  0.002  0.000  0.000 -0.001 -0.035  0.012  0.004  0.001  0.001  0.001  0.002  0.000  0.003
+        -0.001 -0.007 -0.004  0.015 -0.009 -0.046  0.013  0.089  0.888  0.242  0.007 -0.008  0.003 -0.000  0.001  0.002 -0.001 -0.000  0.000 -0.001  0.000  0.001 -0.000  0.021  0.057 -0.039  0.000 -0.000 -0.000  0.000 -0.001 -0.000 -0.000 -0.003  0.000 -0.000  0.000 -0.000  0.000 -0.001  0.000  0.003  0.001 -0.001  0.001 -0.000  0.001  0.017 -0.004 -0.004 -0.000 -0.000 -0.001  0.000  0.001 -0.000
+        -0.014 -0.013  0.021 -0.016 -0.031 -0.031  0.044 -0.183  0.242  0.425  0.003 -0.001 -0.005  0.003 -0.003 -0.000  0.001 -0.000 -0.001  0.000  0.001 -0.000  0.000 -0.059 -0.156  0.093 -0.000  0.001  0.001 -0.000  0.001  0.001  0.003 -0.002 -0.002  0.000 -0.000  0.000 -0.003  0.004 -0.003  0.001 -0.001 -0.000 -0.000  0.000 -0.001  0.012 -0.006  0.000  0.000  0.000 -0.000 -0.003 -0.002  0.004
+        -0.001  0.001 -0.003  0.000  0.001 -0.037 -0.002 -0.003  0.007  0.003  0.152  0.035  0.011  0.005  0.008 -0.011 -0.010 -0.000 -0.001  0.014 -0.004 -0.013  0.005  0.008  0.005  0.003  0.000 -0.003  0.002 -0.003  0.003 -0.008  0.004 -0.001 -0.003  0.003 -0.004  0.000  0.072 -0.063  0.037 -0.064  0.031  0.062  0.009 -0.006 -0.004 -0.138 -0.123 -0.056  0.003  0.006  0.006 -0.002  0.007 -0.011
+         0.004  0.001  0.001  0.004  0.003 -0.029  0.011 -0.006 -0.008 -0.001  0.035  0.099  0.004  0.001  0.004 -0.006  0.008  0.008 -0.007  0.013  0.006  0.005  0.001 -0.006 -0.005 -0.001 -0.001  0.001  0.006  0.004 -0.005 -0.004  0.007 -0.000  0.004  0.003 -0.003  0.001 -0.086 -0.070  0.049  0.049 -0.002  0.059  0.001  0.002 -0.001 -0.113  0.058 -0.027  0.000  0.004 -0.002  0.005 -0.001  0.005
+        -0.002  0.002  0.001 -0.001 -0.002 -0.014 -0.002  0.016  0.003 -0.005  0.011  0.004  0.085 -0.005 -0.024 -0.006  0.011  0.011  0.004  0.021  0.007  0.001 -0.002  0.009 -0.012 -0.001  0.001  0.008  0.003 -0.010 -0.002  0.008 -0.002  0.014 -0.011 -0.004 -0.000  0.004  0.048  0.066  0.001  0.080  0.041  0.063 -0.002 -0.000  0.003 -0.048 -0.024  0.108 -0.001  0.004 -0.001  0.007  0.009  0.012
+         0.003 -0.002  0.001  0.003  0.001 -0.003  0.009 -0.001 -0.000  0.003  0.005  0.001 -0.005  0.090 -0.031 -0.017 -0.001 -0.004  0.015  0.016 -0.010 -0.009  0.001 -0.009  0.008  0.002  0.007  0.003 -0.001  0.004  0.006 -0.016  0.007 -0.008  0.004 -0.004 -0.005  0.001 -0.036 -0.022 -0.124 -0.041  0.120 -0.002 -0.001 -0.007 -0.005 -0.018  0.029 -0.020 -0.000  0.003  0.004 -0.005 -0.005 -0.008
+         0.001  0.002 -0.002  0.002  0.001 -0.004  0.005  0.003  0.001 -0.003  0.008  0.004 -0.024 -0.031  0.152  0.017  0.008 -0.003  0.009 -0.031 -0.005 -0.003  0.001  0.003  0.008 -0.003  0.003 -0.003 -0.012 -0.009  0.001 -0.002  0.008  0.003  0.001 -0.005  0.003  0.000  0.075 -0.146  0.034  0.065 -0.019 -0.150 -0.004 -0.005  0.020 -0.016 -0.002  0.031 -0.004 -0.010 -0.003  0.001 -0.007  0.009
+         0.000  0.002 -0.000 -0.001 -0.000  0.002  0.001  0.002  0.002 -0.000 -0.011 -0.006 -0.006 -0.017  0.017  0.443  0.298 -0.094 -0.046  0.031 -0.001  0.001 -0.003  0.000 -0.003 -0.004 -0.029 -0.047  0.085 -0.001  0.002  0.002  0.000  0.004  0.004 -0.002  0.002  0.007  0.010  0.000  0.000 -0.037 -0.086 -0.056 -0.002 -0.002  0.005 -0.006 -0.002  0.002 -0.000 -0.012  0.003 -0.190  0.077 -0.040
+        -0.001 -0.002 -0.001  0.001  0.003  0.002 -0.003 -0.002 -0.001  0.001 -0.010  0.008  0.011 -0.001  0.008  0.298  0.835  0.042  0.013 -0.044  0.002 -0.003 -0.001 -0.000  0.002  0.003  0.011  0.022 -0.040 -0.000  0.001 -0.001 -0.000 -0.001 -0.001  0.001 -0.002 -0.000 -0.007  0.001 -0.002  0.019  0.056  0.038  0.001  0.001 -0.004  0.001 -0.001 -0.003  0.001  0.008 -0.001  0.108 -0.039  0.020
+         0.001 -0.000  0.000  0.001 -0.001  0.000  0.000  0.001 -0.000 -0.000 -0.000  0.008  0.011 -0.004 -0.003 -0.094  0.042  0.919 -0.089 -0.183  0.002  0.001 -0.002  0.001 -0.000 -0.001 -0.018 -0.039  0.068 -0.000  0.000 -0.003  0.000  0.000  0.000 -0.001  0.001 -0.000 -0.000  0.003  0.001  0.011  0.036  0.020  0.001  0.001 -0.001 -0.001 -0.002  0.002 -0.003 -0.008  0.002 -0.035  0.012 -0.004
+         0.000  0.000 -0.000  0.000 -0.000  0.000 -0.000  0.000  0.000 -0.001 -0.001 -0.007  0.004  0.015  0.009 -0.046  0.013 -0.089  0.888 -0.242  0.000 -0.001 -0.000  0.001 -0.001 -0.001 -0.023 -0.043  0.075 -0.001  0.003 -0.001  0.001  0.001  0.000 -0.000  0.001  0.001 -0.004  0.006  0.005  0.021  0.057  0.039  0.001  0.001 -0.003 -0.003 -0.001  0.003 -0.002 -0.005  0.001 -0.017  0.004 -0.004
+        -0.001 -0.000  0.001  0.000 -0.000 -0.000  0.000  0.001 -0.001  0.000  0.014  0.013  0.021  0.016 -0.031  0.031 -0.044 -0.183 -0.242  0.425  0.003 -0.004 -0.003  0.002 -0.000 -0.000 -0.047 -0.078  0.152 -0.002  0.004  0.001  0.002  0.002 -0.001  0.002 -0.001  0.001 -0.007  0.007  0.009  0.059  0.156  0.093  0.004  0.003 -0.007  0.002 -0.002  0.006 -0.001 -0.011  0.004  0.012 -0.006 -0.000
+         0.001  0.000  0.002 -0.000 -0.001  0.005 -0.003 -0.001  0.000  0.001 -0.004  0.006  0.007 -0.010 -0.005 -0.001  0.002  0.002  0.000  0.003  0.966 -0.003 -0.010  0.001  0.002 -0.001  0.001  0.001 -0.001 -0.001  0.000 -0.001  0.000 -0.000 -0.002  0.000 -0.003  0.008  0.000 -0.001 -0.002 -0.003 -0.001 -0.002 -0.001 -0.001 -0.002 -0.001  0.001 -0.001  0.003  0.000 -0.001 -0.001 -0.000 -0.001
+        -0.001 -0.001  0.000 -0.002 -0.001  0.003 -0.002 -0.001  0.001 -0.000 -0.013  0.005  0.001 -0.009 -0.003  0.001 -0.003  0.001 -0.001 -0.004 -0.003  0.935 -0.044  0.001  0.001 -0.001  0.001  0.000  0.000 -0.003  0.001 -0.002 -0.000  0.000 -0.001 -0.004  0.001 -0.025  0.003 -0.001 -0.001 -0.000  0.005  0.001  0.003  0.000  0.003 -0.002 -0.001 -0.001  0.001 -0.001 -0.000  0.002  0.001 -0.000
+        -0.001  0.001  0.002  0.001 -0.001  0.001  0.000  0.000 -0.000  0.000  0.005  0.001 -0.002  0.001  0.001 -0.003 -0.001 -0.002 -0.000 -0.003 -0.010 -0.044  0.913  0.000 -0.000 -0.001  0.001  0.001  0.002 -0.000  0.001  0.001 -0.002 -0.001  0.000 -0.007  0.013 -0.007  0.003  0.001  0.001  0.002  0.000  0.000  0.004 -0.000  0.003  0.003  0.001  0.001  0.001 -0.001  0.001 -0.001  0.001  0.000
+        -0.064  0.049 -0.080 -0.041 -0.065 -0.037  0.019 -0.011  0.021 -0.059  0.008 -0.006  0.009 -0.009  0.003  0.000 -0.000  0.001  0.001  0.002  0.001  0.001  0.000  0.966 -0.014  0.007  0.001  0.000 -0.002  0.002 -0.002 -0.000  0.000 -0.004 -0.007  0.000  0.000  0.000 -0.003 -0.000 -0.002  0.001  0.001 -0.001 -0.001  0.000  0.000  0.012 -0.000 -0.003  0.001  0.000  0.000  0.002  0.002 -0.002
+         0.031 -0.002 -0.041  0.120  0.019 -0.086  0.056 -0.036  0.057 -0.156  0.005 -0.005 -0.012  0.008  0.008 -0.003  0.002 -0.000 -0.001 -0.000  0.002  0.001 -0.000 -0.014  0.919  0.045 -0.001  0.000  0.000 -0.001  0.002  0.002 -0.003  0.001  0.013  0.000  0.001 -0.000 -0.001  0.005 -0.000  0.004 -0.000  0.000  0.002  0.001 -0.000  0.033 -0.014 -0.003 -0.002 -0.001 -0.001 -0.003 -0.000 -0.001
+        -0.062 -0.059  0.063  0.002 -0.150  0.056 -0.038  0.020 -0.039  0.093  0.003 -0.001 -0.001  0.002 -0.003 -0.004  0.003 -0.001 -0.001 -0.000 -0.001 -0.001 -0.001  0.007  0.045  0.932  0.000 -0.001  0.001 -0.001  0.003  0.000  0.008 -0.025 -0.007  0.000 -0.000  0.000  0.002 -0.001  0.000 -0.002 -0.003 -0.001  0.002 -0.002  0.002 -0.022  0.008  0.003  0.001  0.001  0.001 -0.002 -0.002  0.004
+        -0.002  0.002  0.001  0.000  0.002  0.000  0.000  0.000  0.000 -0.000  0.000 -0.001  0.001  0.007  0.003 -0.029  0.011 -0.018 -0.023 -0.047  0.001  0.001  0.001  0.001 -0.001  0.000  0.966 -0.003  0.010  0.001  0.005  0.013  0.000  0.003  0.003 -0.003 -0.001  0.002  0.000  0.001  0.004  0.004  0.007  0.004  0.006 -0.002  0.001 -0.000  0.001  0.001  0.004  0.016 -0.007 -0.015  0.002 -0.002
+         0.001 -0.002  0.000 -0.001  0.000  0.001 -0.001  0.000 -0.000  0.001 -0.003  0.001  0.008  0.003 -0.003 -0.047  0.022 -0.039 -0.043 -0.078  0.001  0.000  0.001  0.000  0.000 -0.001 -0.003  0.935  0.044  0.002 -0.005 -0.023 -0.001 -0.001  0.001 -0.000  0.005 -0.001  0.001  0.001 -0.003  0.004  0.015  0.007 -0.000 -0.000 -0.001 -0.002 -0.002  0.001 -0.023 -0.004 -0.009 -0.017  0.005 -0.000
+        -0.001 -0.001 -0.000 -0.001  0.001 -0.001  0.000  0.000 -0.000  0.001  0.002  0.006  0.003 -0.001 -0.012  0.085 -0.040  0.068  0.075  0.152 -0.001  0.000  0.002 -0.002  0.000  0.001  0.010  0.044  0.913 -0.009  0.014  0.001 -0.002 -0.001  0.001 -0.002 -0.000  0.000  0.004 -0.003 -0.005 -0.009 -0.029 -0.023  0.000 -0.001  0.001  0.003  0.002 -0.001  0.013  0.011 -0.003  0.031 -0.011  0.004
+        -0.008  0.006  0.009  0.009  0.003  0.000 -0.000 -0.000  0.000 -0.000 -0.003  0.004 -0.010  0.004 -0.009 -0.001 -0.000 -0.000 -0.001 -0.002 -0.001 -0.003 -0.000  0.002 -0.001 -0.001  0.001  0.002 -0.009  0.966 -0.014 -0.007 -0.003 -0.000  0.002  0.001  0.004 -0.002  0.004  0.004 -0.009  0.004  0.000 -0.002 -0.018  0.003 -0.005  0.000 -0.000  0.002 -0.008 -0.005 -0.014  0.002 -0.001 -0.000
+        -0.005  0.005 -0.012 -0.008  0.008 -0.003  0.002  0.001 -0.001  0.001  0.003 -0.005 -0.002  0.006  0.001  0.002  0.001  0.000  0.003  0.004  0.000  0.001  0.001 -0.002  0.002  0.003  0.005 -0.005  0.014 -0.014  0.919 -0.045 -0.001  0.005  0.000  0.001 -0.000 -0.003  0.007  0.015 -0.029  0.000 -0.002  0.003 -0.029  0.012 -0.004  0.002  0.001  0.000  0.009  0.002 -0.001 -0.005 -0.001  0.003
+         0.003 -0.001  0.001  0.002  0.003  0.002 -0.002 -0.001 -0.000  0.001 -0.008 -0.004  0.008 -0.016 -0.002  0.002 -0.001 -0.003 -0.001  0.001 -0.001 -0.002  0.001 -0.000  0.002  0.000  0.013 -0.023  0.001 -0.007 -0.045  0.932 -0.002  0.001  0.000 -0.001  0.000 -0.001  0.004  0.007 -0.023 -0.002  0.003  0.001 -0.025  0.004 -0.003 -0.003 -0.002 -0.002  0.022  0.006  0.002 -0.002 -0.002  0.006
+        -0.072  0.086  0.048  0.036  0.075 -0.001  0.001  0.001 -0.000  0.003  0.004  0.007 -0.002  0.007  0.008  0.000 -0.000  0.000  0.001  0.002  0.000 -0.000 -0.002  0.000 -0.003  0.008  0.000 -0.001 -0.002 -0.003 -0.001 -0.002  0.966 -0.003 -0.010  0.001  0.002 -0.001  0.001  0.001 -0.001 -0.001  0.000 -0.001 -0.001 -0.000 -0.001  0.003  0.000 -0.001 -0.001  0.001 -0.001 -0.001 -0.001 -0.002
+         0.063  0.070  0.066  0.022 -0.146 -0.002 -0.000 -0.001 -0.003 -0.002 -0.001 -0.000  0.014 -0.008  0.003  0.004 -0.001  0.000  0.001  0.002 -0.000  0.000 -0.001 -0.004  0.001 -0.025  0.003 -0.001 -0.001 -0.000  0.005  0.001 -0.003  0.935 -0.044  0.001  0.001 -0.001  0.001  0.000  0.000 -0.003  0.001 -0.002  0.002  0.001 -0.000  0.001 -0.001 -0.000 -0.002 -0.001 -0.001  0.003  0.000  0.003
+         0.037  0.049 -0.001 -0.124 -0.034 -0.003 -0.000  0.000  0.000 -0.002 -0.003  0.004 -0.011  0.004  0.001  0.004 -0.001  0.000  0.000 -0.001 -0.002 -0.001  0.000 -0.007  0.013 -0.007  0.003  0.001  0.001  0.002  0.000  0.000 -0.010 -0.044  0.913  0.000 -0.000 -0.001  0.001  0.001  0.002 -0.000  0.001  0.001 -0.001  0.001  0.000  0.001 -0.001  0.001  0.003  0.001  0.001  0.004 -0.000  0.003
+         0.000  0.001 -0.001 -0.001  0.000 -0.000  0.000  0.000 -0.000  0.000  0.003  0.003 -0.004 -0.004 -0.005 -0.002  0.001 -0.001 -0.000  0.002  0.000 -0.004 -0.007  0.000  0.000  0.000 -0.003 -0.000 -0.002  0.001  0.001 -0.001  0.001  0.001  0.000  0.966 -0.014  0.007  0.001  0.000 -0.002  0.002 -0.002 -0.000  0.002  0.002 -0.002  0.001  0.000  0.000  0.012 -0.000 -0.003 -0.001  0.000  0.000
+         0.001  0.000  0.000 -0.000 -0.001  0.001 -0.001 -0.001  0.000 -0.000 -0.004 -0.003 -0.000 -0.005  0.003  0.002 -0.002  0.001  0.001 -0.001 -0.003  0.001  0.013  0.000  0.001 -0.000 -0.001  0.005 -0.000  0.004 -0.000  0.000  0.002  0.001 -0.000 -0.014  0.919  0.045 -0.001  0.000  0.000 -0.001  0.002  0.002 -0.003 -0.000 -0.001 -0.002 -0.001 -0.001  0.033 -0.014 -0.003  0.002  0.001 -0.000
+         0.001 -0.000 -0.001 -0.001 -0.001 -0.000  0.000  0.000 -0.000  0.000  0.000  0.001  0.004  0.001  0.000  0.007 -0.000 -0.000  0.001  0.001  0.008 -0.025 -0.007  0.000 -0.000  0.000  0.002 -0.001  0.000 -0.002 -0.003 -0.001 -0.001 -0.001 -0.001  0.007  0.045  0.932  0.000 -0.001  0.001 -0.001  0.003  0.000 -0.002 -0.002  0.004  0.001  0.001  0.001 -0.022  0.008  0.003  0.002 -0.002  0.002
+        -0.004  0.006 -0.007 -0.010  0.005 -0.001  0.002 -0.002  0.000 -0.003  0.072 -0.086  0.048 -0.036  0.075  0.010 -0.007 -0.000 -0.004 -0.007  0.000  0.003  0.003 -0.003 -0.001  0.002  0.000  0.001  0.004  0.004  0.007  0.004  0.001  0.001  0.001  0.001 -0.001  0.000  0.966 -0.003  0.010  0.001  0.005  0.013 -0.015  0.002 -0.002  0.004  0.016 -0.007 -0.000  0.001  0.001  0.006 -0.002  0.001
+        -0.013  0.005 -0.001 -0.009  0.003  0.001 -0.003 -0.001 -0.001  0.004 -0.063 -0.070  0.066 -0.022 -0.146  0.000  0.001  0.003  0.006  0.007 -0.001 -0.001  0.001 -0.000  0.005 -0.001  0.001  0.001 -0.003  0.004  0.015  0.007  0.001  0.000  0.001  0.000  0.000 -0.001 -0.003  0.935  0.044  0.002 -0.005 -0.023 -0.017  0.005 -0.000 -0.023 -0.004 -0.009 -0.002 -0.002  0.001 -0.000 -0.000 -0.001
+        -0.005 -0.001 -0.002 -0.001  0.001  0.003  0.001 -0.002  0.000 -0.003  0.037  0.049  0.001 -0.124  0.034  0.000 -0.002  0.001  0.005  0.009 -0.002 -0.001  0.001 -0.002 -0.000  0.000  0.004 -0.003 -0.005 -0.009 -0.029 -0.023 -0.001  0.000  0.002 -0.002  0.000  0.001  0.010  0.044  0.913 -0.009  0.014  0.001  0.031 -0.011  0.004  0.013  0.011 -0.003  0.003  0.002 -0.001  0.000 -0.001  0.001
+         0.003 -0.000 -0.000  0.001  0.001  0.024 -0.013 -0.006  0.003  0.001 -0.064  0.049  0.080 -0.041  0.065 -0.037  0.019  0.011  0.021  0.059 -0.003 -0.000  0.002  0.001  0.004 -0.002  0.004  0.004 -0.009  0.004  0.000 -0.002 -0.001 -0.003 -0.000  0.002 -0.001 -0.001  0.001  0.002 -0.009  0.966 -0.014 -0.007  0.002 -0.001 -0.000 -0.008 -0.005 -0.014  0.000 -0.000  0.002 -0.018  0.003 -0.005
+        -0.000 -0.002  0.002 -0.001 -0.005  0.006 -0.002 -0.001  0.001 -0.001  0.031 -0.002  0.041  0.120 -0.019 -0.086  0.056  0.036  0.057  0.156 -0.001  0.005  0.000  0.001 -0.000 -0.003  0.007  0.015 -0.029  0.000 -0.002  0.003  0.000  0.001  0.001 -0.002  0.002  0.003  0.005 -0.005  0.014 -0.014  0.919 -0.045 -0.005 -0.001  0.003  0.009  0.002 -0.001  0.002  0.001  0.000 -0.029  0.012 -0.004
+         0.003  0.001 -0.000 -0.001 -0.002 -0.004  0.006  0.002 -0.001 -0.000  0.062  0.059  0.063 -0.002 -0.150 -0.056  0.038  0.020  0.039  0.093 -0.002  0.001  0.000 -0.001  0.000 -0.001  0.004  0.007 -0.023 -0.002  0.003  0.001 -0.001 -0.002  0.001 -0.000  0.002  0.000  0.013 -0.023  0.001 -0.007 -0.045  0.932 -0.002 -0.002  0.006  0.022  0.006  0.002 -0.003 -0.002 -0.002 -0.025  0.004 -0.003
+         0.010  0.021 -0.010  0.005 -0.003 -0.001 -0.000  0.000  0.001 -0.000  0.009  0.001 -0.002 -0.001 -0.004 -0.002  0.001  0.001  0.001  0.004 -0.001  0.003  0.004 -0.001  0.002  0.002  0.006 -0.000  0.000 -0.018 -0.029 -0.025 -0.001  0.002 -0.001  0.002 -0.003 -0.002 -0.015 -0.017  0.031  0.002 -0.005 -0.002  0.883  0.013 -0.007  0.000 -0.006  0.001 -0.001 -0.000 -0.001 -0.001 -0.002  0.005
+        -0.011 -0.008  0.005 -0.001  0.001 -0.001  0.001  0.000 -0.000  0.000 -0.006  0.002 -0.000 -0.007 -0.005 -0.002  0.001  0.001  0.001  0.003 -0.001  0.000 -0.000  0.000  0.001 -0.002 -0.002 -0.000 -0.001  0.003  0.012  0.004 -0.000  0.001  0.001  0.002 -0.000 -0.002  0.002  0.005 -0.011 -0.001 -0.001 -0.002  0.013  0.963  0.009 -0.001  0.000 -0.001 -0.001  0.002 -0.002 -0.002 -0.000 -0.000
+         0.007  0.008  0.001  0.004  0.002  0.002 -0.001 -0.001  0.001 -0.001 -0.004 -0.001  0.003 -0.005  0.020  0.005 -0.004 -0.001 -0.003 -0.007 -0.002  0.003  0.003  0.000 -0.000  0.002  0.001 -0.001  0.001 -0.005 -0.004 -0.003 -0.001 -0.000  0.000 -0.002 -0.001  0.004 -0.002 -0.000  0.004 -0.000  0.003  0.006 -0.007  0.009  0.971 -0.001 -0.001 -0.001  0.003 -0.000  0.002  0.005 -0.000 -0.000
+        -0.003  0.004 -0.005 -0.000 -0.003  0.190 -0.108 -0.035  0.017  0.012 -0.138 -0.113 -0.048 -0.018 -0.016 -0.006  0.001 -0.001 -0.003  0.002 -0.001 -0.002  0.003  0.012  0.033 -0.022 -0.000 -0.002  0.003  0.000  0.002 -0.003  0.003  0.001  0.001  0.001 -0.002  0.001  0.004 -0.023  0.013 -0.008  0.009  0.022  0.000 -0.001 -0.001  0.883  0.013  0.007  0.002  0.002  0.003 -0.001 -0.001  0.003
+         0.017 -0.005  0.004  0.014  0.001 -0.077  0.039  0.012 -0.004 -0.006 -0.123  0.058 -0.024  0.029 -0.002 -0.002 -0.001 -0.002 -0.001 -0.002  0.001 -0.001  0.001 -0.000 -0.014  0.008  0.001 -0.002  0.002 -0.000  0.001 -0.002  0.000 -0.001 -0.001  0.000 -0.001  0.001  0.016 -0.004  0.011 -0.005  0.002  0.006 -0.006  0.000 -0.001  0.013  0.963 -0.009  0.002  0.001  0.001 -0.000  0.002 -0.000
+        -0.006  0.003  0.008 -0.006  0.004 -0.040  0.020  0.004 -0.004  0.000 -0.056 -0.027  0.108 -0.020  0.031  0.002 -0.003  0.002  0.003  0.006 -0.001 -0.001  0.001 -0.003 -0.003  0.003  0.001  0.001 -0.001  0.002  0.000 -0.002 -0.001 -0.000  0.001  0.000 -0.001  0.001 -0.007 -0.009 -0.003 -0.014 -0.001  0.002  0.001 -0.001 -0.001  0.007 -0.009  0.971  0.003  0.001  0.001 -0.001 -0.002  0.002
+        -0.000 -0.000  0.000  0.000  0.001 -0.002  0.001  0.001 -0.000  0.000  0.003  0.000 -0.001 -0.000 -0.004 -0.000  0.001 -0.003 -0.002 -0.001  0.003  0.001  0.001  0.001 -0.002  0.001  0.004 -0.023  0.013 -0.008  0.009  0.022 -0.001 -0.002  0.003  0.012  0.033 -0.022 -0.000 -0.002  0.003  0.000  0.002 -0.003 -0.001 -0.001  0.003  0.002  0.002  0.003  0.883  0.013  0.007  0.000 -0.001 -0.001
+         0.002 -0.000 -0.002  0.000  0.001 -0.002  0.001  0.001 -0.000  0.000  0.006  0.004  0.004  0.003 -0.010 -0.012  0.008 -0.008 -0.005 -0.011  0.000 -0.001 -0.001  0.000 -0.001  0.001  0.016 -0.004  0.011 -0.005  0.002  0.006  0.001 -0.001  0.001 -0.000 -0.014  0.008  0.001 -0.002  0.002 -0.000  0.001 -0.002 -0.000  0.002 -0.000  0.002  0.001  0.001  0.013  0.963 -0.009 -0.006  0.000 -0.001
+         0.004  0.003 -0.003 -0.000  0.001 -0.004  0.003  0.001 -0.001 -0.000  0.006 -0.002 -0.001  0.004 -0.003  0.003 -0.001  0.002  0.001  0.004 -0.001 -0.000  0.001  0.000 -0.001  0.001 -0.007 -0.009 -0.003 -0.014 -0.001  0.002 -0.001 -0.001  0.001 -0.003 -0.003  0.003  0.001  0.001 -0.001  0.002  0.000 -0.002 -0.001 -0.002  0.002  0.003  0.001  0.001  0.007 -0.009  0.971  0.001 -0.001 -0.001
+        -0.003 -0.000 -0.003 -0.001  0.006  0.001  0.001  0.002  0.000 -0.003 -0.002  0.005  0.007 -0.005  0.001 -0.190  0.108 -0.035 -0.017  0.012 -0.001  0.002 -0.001  0.002 -0.003 -0.002 -0.015 -0.017  0.031  0.002 -0.005 -0.002 -0.001  0.003  0.004 -0.001  0.002  0.002  0.006 -0.000  0.000 -0.018 -0.029 -0.025 -0.001 -0.002  0.005 -0.001 -0.000 -0.001  0.000 -0.006  0.001  0.883  0.013 -0.007
+        -0.003  0.009  0.004 -0.004 -0.002  0.005 -0.001  0.000  0.001 -0.002  0.007 -0.001  0.009 -0.005 -0.007  0.077 -0.039  0.012  0.004 -0.006 -0.000  0.001  0.001  0.002 -0.000 -0.002  0.002  0.005 -0.011 -0.001 -0.001 -0.002 -0.001  0.000 -0.000  0.000  0.001 -0.002 -0.002 -0.000 -0.001  0.003  0.012  0.004 -0.002 -0.000 -0.000 -0.001  0.002 -0.002 -0.001  0.000 -0.001  0.013  0.963  0.009
+        -0.011  0.010 -0.008 -0.007  0.014 -0.006  0.004  0.003 -0.000  0.004 -0.011  0.005  0.012 -0.008  0.009 -0.040  0.020 -0.004 -0.004 -0.000 -0.001 -0.000  0.000 -0.002 -0.001  0.004 -0.002 -0.000  0.004 -0.000  0.003  0.006 -0.002  0.003  0.003  0.000 -0.000  0.002  0.001 -0.001  0.001 -0.005 -0.004 -0.003  0.005 -0.000 -0.000  0.003 -0.000  0.002 -0.001 -0.001 -0.001 -0.007  0.009  0.971
+
+     Hamiltonian is in the AMULET format,  512 k-points
+     ATTENTION: All k-points weights are real weights
+
+  
+     Projected Hamiltonian eigenvalues (eV):
+       spin1       6.8576   6.8860   7.0691   7.1537   7.3075   7.4384   7.5301   7.6097   7.6547   7.7122   7.8083   7.8460   8.0057   8.0971   8.1569   8.3217   8.3726   8.4136   8.4396   8.5062   8.6807   8.7576   8.8018   8.9016   8.9363   8.9541   9.1078   9.1628   9.2259   9.2553   9.3123   9.3604   9.3818   9.4392   9.5241   9.5600   9.6403   9.7257   9.8448   9.9190  10.0064  10.0952  13.0233  13.5529  13.6254  13.6629  14.8035  14.9900  15.1219  15.1978  15.2382  15.2623  15.4286  15.4449  15.4783  15.5856
+  
+  
+     Projected Hamiltonian eigenvalues (eV):
+       spin2       6.8454   6.9506   6.9978   7.2251   7.2483   7.4200   7.4346   7.5048   7.6141   7.7423   7.8297   7.9299   8.0319   8.1980   8.2400   8.3000   8.3963   8.4674   8.5064   8.5381   8.6744   8.7037   8.7781   8.8500   8.9059   8.9684   9.0245   9.1068   9.1283   9.2551   9.3005   9.3382   9.3983   9.4975   9.5589   9.6156   9.6663   9.7185   9.9204   9.9713   9.9882  10.0627  13.0097  13.5869  13.6599  13.7274  14.8093  15.0363  15.0699  15.1887  15.2260  15.2526  15.2821  15.4361  15.5159  15.5870
+  
+
+     WANNIER_HAM  :  37m17.47s CPU  41m44.70s WALL
+
+
+   This run was terminated on:   7:41:40  14Jan2024            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
