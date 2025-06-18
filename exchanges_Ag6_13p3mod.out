@@ -1,0 +1,631 @@
+
+     ------------------------------------------------------------------
+                           Program EXCHANGES                           
+      for calculation of exchange parameters of the Heisenberg model.  
+
+     Please cite "D. M. Korotin et al., Phys. Rev. B 91, 224405 (2015)"
+         in publications or presentations arising from this work.      
+     ------------------------------------------------------------------
+
+        We are using the model with the exchange term defined as:      
+
+                        H = \sum_ij J_{ij} e_i e_j,                    
+
+      where e_i,j are unit vectors and sum runs once over ions pairs   
+
+     ------------------------------------------------------------------
+
+
+     Running in   1 threads
+
+     Parameters of integration contour:
+     emin = -30.000  emax =  0.000  height = 0.010 (eV)
+     nz1 =  150  nz2 = 3000  nz3 =  150
+
+     Cell constant (alat) 10.051688002 Bohr
+     Cell vectors (rows):
+         1.00000  0.00000  0.00000
+         0.00000  1.05616  0.00000
+         0.00000  0.00000  1.44172
+     Atoms of the initial cell:
+       Y     0.01854  0.98604  0.36043
+       Y     0.51854  0.59819  1.08129
+       Y     0.48146  0.45796  0.36043
+       Y     0.98146  0.07012  1.08129
+       Cr1   0.00000  0.52808  0.00000
+       Cr2   0.50000  0.00000  0.00000
+       Cr1   0.50000  0.00000  0.72086
+       Cr2   0.00000  0.52808  0.72086
+       O     0.69464  0.31924  1.36039
+       O     0.19464  0.20884  0.08133
+       O     0.80536  0.84732  0.80219
+       O     0.30536  0.73692  0.63953
+       O     0.30536  0.73692  0.08133
+       O     0.80536  0.84732  1.36039
+       O     0.19464  0.20884  0.63953
+       O     0.69464  0.31924  0.80219
+       O     0.11429  0.48484  1.08129
+       O     0.61429  0.04324  0.36043
+       O     0.38571  1.01291  1.08129
+       O     0.88571  0.57132  0.36043
+
+     We have the following basis for the hamiltonian and the green function:
+      56 orbitals grouped in 16 blocks:
+     Cr1 (atom  5):   5 d-orbitals (3z^2-1     xz         yz         x^2-y^2    xy         )
+     Cr2 (atom  6):   5 d-orbitals (3z^2-1     xz         yz         x^2-y^2    xy         )
+     Cr1 (atom  7):   5 d-orbitals (3z^2-1     xz         yz         x^2-y^2    xy         )
+     Cr2 (atom  8):   5 d-orbitals (3z^2-1     xz         yz         x^2-y^2    xy         )
+       O (atom  9):   3 p-orbitals (z          x          y          )
+       O (atom 10):   3 p-orbitals (z          x          y          )
+       O (atom 11):   3 p-orbitals (z          x          y          )
+       O (atom 12):   3 p-orbitals (z          x          y          )
+       O (atom 13):   3 p-orbitals (z          x          y          )
+       O (atom 14):   3 p-orbitals (z          x          y          )
+       O (atom 15):   3 p-orbitals (z          x          y          )
+       O (atom 16):   3 p-orbitals (z          x          y          )
+       O (atom 17):   3 p-orbitals (z          x          y          )
+       O (atom 18):   3 p-orbitals (z          x          y          )
+       O (atom 19):   3 p-orbitals (z          x          y          )
+       O (atom 20):   3 p-orbitals (z          x          y          )
+
+     We will consider   10 atoms: 
+      1: Cr1   0.00000  0.52808  0.00000   ( distance =  0.00000 alat )
+      2: Cr2   0.00000  0.52808 -0.72086   ( distance =  0.72086 alat )
+      3: Cr2   0.00000  0.52808  0.72086   ( distance =  0.72086 alat )
+      4: Cr2  -0.50000  0.00000  0.00000   ( distance =  0.72723 alat )
+      5: Cr2  -0.50000  1.05616  0.00000   ( distance =  0.72723 alat )
+      6: Cr2   0.50000  0.00000  0.00000   ( distance =  0.72723 alat )
+      7: Cr2   0.50000  1.05616  0.00000   ( distance =  0.72723 alat )
+      8: Cr1  -1.00000  0.52808  0.00000   ( distance =  1.00000 alat )
+      9: Cr1   1.00000  0.52808  0.00000   ( distance =  1.00000 alat )
+     10: Cr1   0.50000  0.00000  0.72086   ( distance =  1.02397 alat )
+
+     Exchange interaction between atoms   1 and  2:  -1.661 meV =   -19 K (distance: 0.721)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+          24   25   -4    9   -3          2.14743  2.17344 -0.42821  0.81735 -0.27839
+         -31   -8  -20   -1   -9         -2.71433 -0.75464 -1.76038 -0.16518 -0.84541
+          26   -8  -24  -12  -10          2.24978 -0.70911 -2.12437 -1.03720 -0.89174
+         -20   -8   -8   -7    0         -1.78454 -0.70720 -0.71735 -0.65494 -0.02704
+          14    1   -3    0   -3          1.27497  0.10120 -0.32997  0.00351 -0.27449
+
+     Exchange interaction between atoms   1 and  3:  -1.661 meV =   -19 K (distance: 0.721)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+          24   25   -4    9   -3          2.14752  2.17346 -0.42822  0.81733 -0.27840
+         -31   -8  -20   -1   -9         -2.71435 -0.75459 -1.76033 -0.16509 -0.84545
+          26   -8  -24  -12  -10          2.24971 -0.70914 -2.12438 -1.03724 -0.89174
+         -20   -8   -8   -7    0         -1.78455 -0.70718 -0.71728 -0.65488 -0.02702
+          14    1   -3    0   -3          1.27495  0.10119 -0.32997  0.00349 -0.27449
+
+     Exchange interaction between atoms   1 and  4:  -3.089 meV =   -35 K (distance: 0.727)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           4   21   13   -5  -20          0.35311  1.86829  1.20195 -0.50760 -1.78437
+         -14  -20  -23   -7   53         -1.26203 -1.78927 -2.01947 -0.63739  4.58324
+          -1  -11  -15  -11   26         -0.09560 -0.96976 -1.34737 -0.96256  2.24604
+          36  -11  -13  -26  -29          3.11175 -0.97184 -1.20168 -2.24296 -2.52202
+         -12  -21   -8   23   22         -1.07163 -1.84484 -0.70024  2.04247  1.93794
+
+     Exchange interaction between atoms   1 and  5:  -3.088 meV =   -35 K (distance: 0.727)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           6   14  -24    7   23          0.55704  1.25018 -2.14771  0.65993  2.05824
+           1  -13   12   16  -21          0.16376 -1.15154  1.04186  1.43251 -1.84971
+          22   19  -26    6   58          1.91457  1.71393 -2.26819  0.57269  5.04964
+         -33   10  -10  -31  -23         -2.88637  0.87186 -0.89764 -2.72048 -2.04393
+          19    9  -28   32   28          1.72059  0.84971 -2.42201  2.83833  2.49517
+
+     Exchange interaction between atoms   1 and  6:  -3.088 meV =   -35 K (distance: 0.727)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           6   14  -24    7   23          0.55701  1.25023 -2.14784  0.65990  2.05825
+           1  -13   12   16  -21          0.16385 -1.15158  1.04201  1.43262 -1.84970
+          22   19  -26    6   58          1.91444  1.71405 -2.26849  0.57255  5.04963
+         -33   10  -10  -31  -23         -2.88639  0.87182 -0.89751 -2.72056 -2.04391
+          19    9  -28   32   28          1.72059  0.84973 -2.42212  2.83836  2.49518
+
+     Exchange interaction between atoms   1 and  7:  -3.089 meV =   -35 K (distance: 0.727)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           4   21   13   -5  -20          0.35311  1.86830  1.20197 -0.50766 -1.78437
+         -14  -20  -23   -7   53         -1.26206 -1.78933 -2.01952 -0.63718  4.58319
+          -1  -11  -15  -11   26         -0.09559 -0.96977 -1.34736 -0.96248  2.24596
+          36  -11  -13  -26  -29          3.11185 -0.97187 -1.20169 -2.24306 -2.52208
+         -12  -21   -8   23   22         -1.07166 -1.84482 -0.70024  2.04250  1.93804
+
+     Exchange interaction between atoms   1 and  8:  -0.036 meV =     0 K (distance: 1.000)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.04899 -0.03481  0.00300 -0.00235  0.06982
+           0    0    0    0    0          0.04181  0.02810  0.00600  0.02390 -0.08400
+           0    0    0    0    0          0.01521  0.00988 -0.01248 -0.01446  0.01229
+           0    0    0    0    0         -0.02403  0.00080 -0.02688  0.03010  0.03524
+           0    0    0    0    0          0.03782  0.02671  0.01171  0.03750 -0.03280
+
+     Exchange interaction between atoms   1 and  9:  -0.036 meV =     0 K (distance: 1.000)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.04898 -0.03480  0.00300 -0.00235  0.06983
+           0    0    0    0    0          0.04179  0.02809  0.00600  0.02391 -0.08401
+           0    0    0    0    0          0.01521  0.00989 -0.01249 -0.01445  0.01229
+           0    0    0    0    0         -0.02405  0.00079 -0.02686  0.03010  0.03524
+           0    0    0    0    0          0.03782  0.02671  0.01171  0.03750 -0.03279
+
+     Exchange interaction between atoms   1 and 10:   0.044 meV =     0 K (distance: 1.024)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0   -1         -0.04414 -0.05750  0.07811 -0.03135 -0.09040
+           0    0   -1    0    1         -0.00275  0.04728 -0.09131  0.02678  0.09034
+           0    0    1    0    0         -0.01028 -0.05106  0.09477 -0.01552 -0.03720
+           0    0    1    0    0         -0.08153 -0.05582  0.09609 -0.01929 -0.08398
+           0    0    0    0    0         -0.03242 -0.03675  0.03127 -0.02092 -0.03510
+
+     Exchange interaction between atoms   2 and  3:  -0.195 meV =    -2 K (distance: 1.442)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+          -1    0    0    0    0         -0.15663  0.05957 -0.05359 -0.03499  0.01951
+           0    0    0    0    0          0.01269 -0.05970  0.02793  0.00068  0.00217
+           0    0    0    0    0         -0.01228  0.03207  0.00221  0.01315 -0.01522
+           0    0    0    0    0          0.03857 -0.01593  0.01766  0.00115 -0.04179
+           0    0    0    0    0         -0.01911  0.01832 -0.01373 -0.01380  0.01774
+
+     Exchange interaction between atoms   2 and  4:   0.044 meV =     0 K (distance: 1.024)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.00901  0.06091 -0.05184  0.02898  0.01175
+           0    2   -1    0    0         -0.01743  0.18484 -0.12161  0.04827  0.03747
+           0    1   -1    0    0          0.00071  0.10440 -0.08897  0.06900  0.00793
+           0    0    0    0    0         -0.01422 -0.02172  0.08324 -0.06740 -0.01560
+           0    0    0    0    0         -0.00320  0.01614 -0.02888 -0.00789  0.02409
+
+     Exchange interaction between atoms   2 and  5:   0.044 meV =     0 K (distance: 1.024)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.02456  0.03357 -0.02942 -0.02737 -0.02651
+           0    0    0    0    0          0.05186  0.03348 -0.02229  0.04292  0.06152
+           0    0    0    0    0         -0.05728 -0.06377  0.06402 -0.08616 -0.06064
+           0    0    0    0    0         -0.00007  0.00293 -0.00269  0.01046 -0.01092
+           0    0    0    0    0         -0.04701 -0.00690 -0.01632 -0.03643 -0.03984
+
+     Exchange interaction between atoms   2 and  6:  -0.050 meV =     0 K (distance: 1.024)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.00317  0.02429  0.01685  0.00111  0.01120
+           0    0    0    0    0         -0.00259 -0.05420  0.01817  0.04154 -0.01344
+           0    0    0    0    0          0.06791  0.04626  0.05229 -0.03537  0.06536
+           0    0    0    0    0         -0.01790 -0.02772 -0.03974 -0.03054 -0.02170
+           0    0    0    0    0         -0.01585 -0.00732 -0.00665  0.02756 -0.01419
+
+     Exchange interaction between atoms   2 and  7:  -0.050 meV =     0 K (distance: 1.024)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.03419  0.01893 -0.05216 -0.00347 -0.04620
+           1    0    1   -1    0          0.12857 -0.05384  0.08969 -0.09365 -0.00665
+           0    0    0    0    0          0.04740  0.04108  0.04027 -0.05764  0.08330
+           0    0    0    0    0         -0.07346 -0.00460 -0.01909  0.02706 -0.01155
+           0    0    0    0    0         -0.01179 -0.01571 -0.02045  0.02220 -0.02907
+
+     Exchange interaction between atoms   2 and  8:  -0.016 meV =     0 K (distance: 1.233)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.01446  0.00227 -0.00324 -0.00610 -0.00553
+           0    0    0    0    0         -0.01513 -0.00311  0.00579 -0.00728 -0.00283
+           0    0    0    0    0          0.00997 -0.01861 -0.01966  0.01313  0.00011
+           0    0    0    0    0         -0.01156  0.00124  0.00878  0.00139 -0.00670
+           0    0    0    0    0         -0.00674  0.00864  0.01632 -0.00281  0.01998
+
+     Exchange interaction between atoms   2 and  9:  -0.016 meV =     0 K (distance: 1.233)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0          0.01115  0.00109  0.01158  0.00440  0.00205
+           0    0    0    0    0          0.03796  0.00827 -0.00892 -0.01160  0.00051
+           0    0    0    0    0         -0.00276 -0.02161 -0.03717  0.02176  0.03240
+           0    0    0    0    0          0.00790  0.00296 -0.00661  0.00637 -0.00267
+           0    0    0    0    0          0.00778 -0.00129  0.01963 -0.00678 -0.00445
+
+     Exchange interaction between atoms   2 and 10:   0.001 meV =     0 K (distance: 1.615)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0          0.00795  0.00392 -0.00295  0.00485 -0.01156
+           0    0    0    0    0         -0.00109  0.01783  0.00063  0.01168 -0.01038
+           0    0    0    0    0         -0.02635 -0.00988 -0.00991  0.00463  0.00031
+           0    0    0    0    0         -0.01982  0.02072  0.01778 -0.00652  0.02580
+           0    0    0    0    0          0.01463 -0.00643 -0.00280  0.00125 -0.00804
+
+     Exchange interaction between atoms   3 and  4:  -0.050 meV =     0 K (distance: 1.024)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.03418  0.01893 -0.05218 -0.00348 -0.04620
+           1    0    1   -1    0          0.12859 -0.05383  0.08966 -0.09366 -0.00663
+           0    0    0    0    0          0.04739  0.04112  0.04026 -0.05762  0.08333
+           0    0    0    0    0         -0.07345 -0.00461 -0.01906  0.02708 -0.01153
+           0    0    0    0    0         -0.01178 -0.01572 -0.02046  0.02218 -0.02909
+
+     Exchange interaction between atoms   3 and  5:  -0.050 meV =     0 K (distance: 1.024)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.00315  0.02429  0.01686  0.00114  0.01123
+           0    0    0    0    0         -0.00257 -0.05418  0.01816  0.04156 -0.01343
+           0    0    0    0    0          0.06788  0.04628  0.05228 -0.03538  0.06532
+           0    0    0    0    0         -0.01789 -0.02769 -0.03976 -0.03056 -0.02170
+           0    0    0    0    0         -0.01584 -0.00735 -0.00663  0.02757 -0.01418
+
+     Exchange interaction between atoms   3 and  6:   0.044 meV =     0 K (distance: 1.024)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.02457  0.03362 -0.02939 -0.02739 -0.02652
+           0    0    0    0    0          0.05187  0.03350 -0.02227  0.04286  0.06149
+           0    0    0    0    0         -0.05731 -0.06376  0.06399 -0.08613 -0.06059
+           0    0    0    0    0         -0.00002  0.00290 -0.00267  0.01046 -0.01091
+           0    0    0    0    0         -0.04703 -0.00687 -0.01631 -0.03643 -0.03985
+
+     Exchange interaction between atoms   3 and  7:   0.044 meV =     0 K (distance: 1.024)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.00901  0.06090 -0.05185  0.02899  0.01173
+           0    2   -1    0    0         -0.01742  0.18484 -0.12161  0.04828  0.03745
+           0    1   -1    0    0          0.00072  0.10441 -0.08896  0.06899  0.00793
+           0    0    0    0    0         -0.01422 -0.02170  0.08323 -0.06739 -0.01559
+           0    0    0    0    0         -0.00321  0.01612 -0.02888 -0.00788  0.02409
+
+     Exchange interaction between atoms   3 and  8:  -0.016 meV =     0 K (distance: 1.233)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0          0.01114  0.00109  0.01158  0.00439  0.00204
+           0    0    0    0    0          0.03796  0.00826 -0.00891 -0.01159  0.00052
+           0    0    0    0    0         -0.00275 -0.02161 -0.03717  0.02177  0.03242
+           0    0    0    0    0          0.00792  0.00295 -0.00660  0.00635 -0.00270
+           0    0    0    0    0          0.00777 -0.00128  0.01962 -0.00678 -0.00444
+
+     Exchange interaction between atoms   3 and  9:  -0.016 meV =     0 K (distance: 1.233)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.01446  0.00226 -0.00326 -0.00611 -0.00554
+           0    0    0    0    0         -0.01514 -0.00312  0.00576 -0.00731 -0.00285
+           0    0    0    0    0          0.00997 -0.01861 -0.01967  0.01312  0.00012
+           0    0    0    0    0         -0.01159  0.00124  0.00879  0.00138 -0.00669
+           0    0    0    0    0         -0.00672  0.00863  0.01633 -0.00281  0.01996
+
+     Exchange interaction between atoms   3 and 10:  -3.089 meV =   -35 K (distance: 0.727)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+          -8   -2   -7  -23   -7         -0.70716 -0.17891 -0.68453 -2.05326 -0.68352
+         -15   -9    7  -23  -14         -1.35643 -0.85689  0.60401 -1.99410 -1.25432
+          39   -1    5   38   58          3.37244 -0.15940  0.49319  3.30310  5.02625
+          16  -29   22   -9   45          1.44511 -2.53161  1.94679 -0.82433  3.93838
+          -4   16  -27  -11  -13         -0.39776  1.40174 -2.33758 -1.02919 -1.19362
+
+     Exchange interaction between atoms   4 and  5:   0.217 meV =     2 K (distance: 1.056)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0          0.02727  0.07824  0.00924  0.06707  0.03801
+           0    0    0    0    0          0.03678  0.06655 -0.01281  0.04033  0.03532
+           0    0    0    0   -1         -0.00386 -0.00892 -0.02425 -0.03246 -0.10196
+           0    2    0    1    4         -0.06973  0.17809  0.02397  0.14214  0.40915
+           0    0    0    0    0         -0.01084 -0.02843 -0.03033 -0.02415  0.00576
+
+     Exchange interaction between atoms   4 and  6:  -0.036 meV =     0 K (distance: 1.000)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.02442  0.00009  0.00578 -0.01437 -0.00969
+           0    0    0    0    0          0.02851 -0.00085  0.00105 -0.01665  0.03600
+           0    0    0    0    0          0.02255 -0.00316 -0.01508 -0.01301 -0.02282
+           0    0    0    0   -1         -0.00369 -0.04263 -0.05129  0.06136 -0.14220
+           0    0    0    0    0         -0.04401 -0.02997 -0.01695  0.01117 -0.05712
+
+     Exchange interaction between atoms   4 and  7:  -0.127 meV =    -1 K (distance: 1.454)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.06381  0.00965  0.02860 -0.06262  0.05199
+           0    0    0    0    0         -0.01732 -0.00698 -0.03042 -0.02052 -0.00138
+           0    0    0    0    0         -0.02669 -0.01331  0.03374 -0.03469  0.03704
+           0    0    0    0    0          0.02769 -0.02495 -0.00594 -0.00047 -0.01560
+           0    0    0    0   -1          0.04932 -0.02483 -0.05039  0.03984 -0.08965
+
+     Exchange interaction between atoms   4 and  8:  -3.088 meV =   -35 K (distance: 0.727)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+          -8    4    0   23  -12         -0.77425  0.36459  0.01433  2.05979 -1.08763
+         -37    0    0   36  -54         -3.22339  0.04363  0.01582  3.14120 -4.69762
+          15   11   -7  -22   18          1.35800  0.95463 -0.67300 -1.96396  1.62911
+         -18   31  -23   -8  -45         -1.62797  2.67809 -2.02719 -0.72008 -3.93558
+          -2   24  -13   12  -11         -0.25177  2.09135 -1.14711  1.10588 -0.96475
+
+     Exchange interaction between atoms   4 and  9:  -0.015 meV =     0 K (distance: 1.590)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.00579  0.00099  0.00141 -0.00334 -0.01112
+           0    0    0    0    0          0.00644  0.01627  0.00128  0.00077 -0.02085
+           0    0    0    0    0          0.01043  0.01304 -0.00077 -0.02253  0.02518
+           0    0    0    0    0         -0.02093  0.02555  0.00477 -0.01004  0.00467
+           0    0    0    0    0         -0.01437  0.00578 -0.00228  0.00889 -0.01418
+
+     Exchange interaction between atoms   4 and 10:  -0.016 meV =     0 K (distance: 1.233)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0          0.01112  0.00107 -0.01156  0.00441 -0.00204
+           0    0    0    0    0          0.03791  0.00826  0.00895 -0.01158 -0.00050
+           0    0    0    0    0          0.00278  0.02159 -0.03718 -0.02180  0.03238
+           0    0    0    0    0          0.00791  0.00293  0.00659  0.00637  0.00270
+           0    0    0    0    0         -0.00777  0.00129  0.01962  0.00680 -0.00444
+
+     Exchange interaction between atoms   5 and  6:  -0.133 meV =    -1 K (distance: 1.454)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.04302  0.00380 -0.03179  0.03920 -0.07334
+           0    0    0    0    0         -0.01878  0.00020 -0.04847  0.04022 -0.05910
+           0    0    0    0    0         -0.01652 -0.01421  0.02215 -0.01755  0.00927
+           0    0    0    0    0         -0.00145  0.00529 -0.02527 -0.00453 -0.01065
+           0    0    0    0   -1         -0.03739  0.03695 -0.05620  0.03911 -0.10815
+
+     Exchange interaction between atoms   5 and  7:  -0.036 meV =     0 K (distance: 1.000)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.02442  0.00009  0.00578 -0.01437 -0.00969
+           0    0    0    0    0          0.02851 -0.00085  0.00105 -0.01665  0.03600
+           0    0    0    0    0          0.02255 -0.00316 -0.01508 -0.01301 -0.02282
+           0    0    0    0   -1         -0.00369 -0.04263 -0.05129  0.06136 -0.14220
+           0    0    0    0    0         -0.04401 -0.02997 -0.01695  0.01117 -0.05712
+
+     Exchange interaction between atoms   5 and  8:  -3.089 meV =   -35 K (distance: 0.727)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+          -8   -2    7  -23    7         -0.70721 -0.17887  0.68463 -2.05333  0.68358
+         -15   -9   -7  -23   14         -1.35645 -0.85692 -0.60393 -1.99415  1.25446
+         -39    1    5  -38   58         -3.37241  0.15943  0.49339 -3.30323  5.02613
+          16  -29  -22   -9  -45          1.44509 -2.53160 -1.94666 -0.82429 -3.93834
+           4  -16  -27   11  -13          0.39779 -1.40177 -2.33761  1.02925 -1.19358
+
+     Exchange interaction between atoms   5 and  9:  -0.015 meV =     0 K (distance: 1.590)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.01811 -0.00361  0.00109  0.00616 -0.00802
+           0    0    0    0    0         -0.01467  0.00823 -0.00770  0.01355 -0.02993
+           0    0    0    0    0          0.00091  0.00425  0.01247 -0.00852  0.04311
+           0    0    0    0    0          0.00449 -0.00308  0.01704 -0.00015  0.00903
+           0    0    0    0    0         -0.00017 -0.00859 -0.00167  0.00724 -0.01696
+
+     Exchange interaction between atoms   5 and 10:   0.032 meV =     0 K (distance: 1.623)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0          0.01031  0.00463 -0.00948  0.00947 -0.00208
+           0    0    0    0    0          0.01174  0.00370 -0.00913  0.01765 -0.00256
+           0    0    0    0    0         -0.00062  0.02405  0.00762 -0.00999 -0.00377
+           0    0    0    0    0         -0.00543 -0.00638 -0.00352  0.00737  0.00299
+           0    0    0    0    0         -0.00576 -0.00565  0.00005  0.00303  0.00258
+
+     Exchange interaction between atoms   6 and  7:   0.217 meV =     2 K (distance: 1.056)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0          0.02727  0.07824  0.00924  0.06707  0.03801
+           0    0    0    0    0          0.03678  0.06655 -0.01281  0.04033  0.03532
+           0    0    0    0   -1         -0.00386 -0.00892 -0.02425 -0.03246 -0.10196
+           0    2    0    1    4         -0.06973  0.17809  0.02397  0.14214  0.40915
+           0    0    0    0    0         -0.01084 -0.02843 -0.03033 -0.02415  0.00576
+
+     Exchange interaction between atoms   6 and  8:  -0.015 meV =     0 K (distance: 1.590)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.01812 -0.00361  0.00110  0.00615 -0.00802
+           0    0    0    0    0         -0.01467  0.00822 -0.00769  0.01354 -0.02992
+           0    0    0    0    0          0.00091  0.00423  0.01247 -0.00853  0.04310
+           0    0    0    0    0          0.00450 -0.00308  0.01703 -0.00015  0.00904
+           0    0    0    0    0         -0.00017 -0.00859 -0.00168  0.00725 -0.01697
+
+     Exchange interaction between atoms   6 and  9:  -3.089 meV =   -35 K (distance: 0.727)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+          -8   -2    7  -23    7         -0.70717 -0.17893  0.68462 -2.05330  0.68358
+         -15   -9   -7  -23   14         -1.35645 -0.85695 -0.60390 -1.99414  1.25445
+         -39    1    5  -38   58         -3.37241  0.15942  0.49337 -3.30312  5.02622
+          16  -29  -22   -9  -45          1.44510 -2.53169 -1.94680 -0.82424 -3.93833
+           4  -16  -27   11  -13          0.39773 -1.40177 -2.33763  1.02923 -1.19356
+
+     Exchange interaction between atoms   6 and 10:  -1.661 meV =   -19 K (distance: 0.721)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+         -10   21   14   -8   -5         -0.87716  1.82943  1.26103 -0.73050 -0.49067
+         -44   17   21   -1   -3         -3.84669  1.46924  1.82529 -0.11396 -0.31385
+         -22   35  -21  -11    0         -1.93347  3.04606 -1.82287 -0.97907 -0.08003
+          25  -10  -14   -4    0          2.20256 -0.91267 -1.22817 -0.39826 -0.01249
+          15  -15    3    1    0          1.31655 -1.35885  0.31317  0.14735 -0.03183
+
+     Exchange interaction between atoms   7 and  8:  -0.014 meV =     0 K (distance: 1.590)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.00581  0.00101  0.00141 -0.00334 -0.01112
+           0    0    0    0    0          0.00642  0.01629  0.00127  0.00077 -0.02086
+           0    0    0    0    0          0.01042  0.01305 -0.00076 -0.02254  0.02518
+           0    0    0    0    0         -0.02092  0.02556  0.00477 -0.01005  0.00468
+           0    0    0    0    0         -0.01436  0.00577 -0.00228  0.00889 -0.01417
+
+     Exchange interaction between atoms   7 and  9:  -3.088 meV =   -35 K (distance: 0.727)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+          -8    4    0   23  -12         -0.77418  0.36471  0.01427  2.05984 -1.08759
+         -37    0    0   36  -54         -3.22335  0.04382  0.01573  3.14127 -4.69763
+          15   11   -7  -22   18          1.35802  0.95450 -0.67298 -1.96393  1.62911
+         -18   31  -23   -8  -45         -1.62791  2.67783 -2.02705 -0.72014 -3.93540
+          -2   24  -13   12  -11         -0.25164  2.09127 -1.14703  1.10583 -0.96453
+
+     Exchange interaction between atoms   7 and 10:  -0.039 meV =     0 K (distance: 1.279)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.00583 -0.00979  0.00586  0.00048 -0.01899
+           0    0    0    0    0         -0.00935  0.00013  0.00369  0.00654 -0.00811
+           0    0    0    0    0         -0.02248  0.00688  0.00171  0.01707  0.01045
+           0    0    0    0    0          0.01057  0.00176  0.02641 -0.04947 -0.03082
+           0    0    0    0    0         -0.00941  0.01683  0.00452 -0.01699  0.01469
+
+     Exchange interaction between atoms   8 and  9:   0.103 meV =     1 K (distance: 2.000)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.00614 -0.01501  0.00868 -0.00059  0.01293
+           0    0    0    0    0         -0.00971  0.02923  0.01660 -0.00107 -0.01438
+           0    0    0    0    0          0.00420 -0.00085  0.04961 -0.01951  0.00129
+           0    0    0    0    0         -0.00243 -0.00839  0.00224  0.02993  0.00417
+           0    0    0    0    0          0.00552 -0.00458  0.01809 -0.01969  0.00011
+
+     Exchange interaction between atoms   8 and 10:   0.006 meV =     0 K (distance: 1.746)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.00036  0.00180 -0.00025 -0.00225 -0.00996
+           0    0    0    0    0         -0.01517  0.00225 -0.00002  0.00374  0.02403
+           0    0    0    0    0          0.01073  0.00453  0.01505  0.00037  0.00003
+           0    0    0    0    0          0.00160  0.00742  0.01397 -0.01311 -0.00294
+           0    0    0    0    0         -0.00062 -0.00323 -0.00582  0.00599  0.00169
+
+     Exchange interaction between atoms   9 and 10:  -0.050 meV =     0 K (distance: 1.024)
+
+       Orbital exchange interaction matrix J_{i,j,m,n} (in K and meV)
+           0    0    0    0    0         -0.05412 -0.06419 -0.02150 -0.04952 -0.03144
+           0    0    0    0    0         -0.03335 -0.02093  0.04350  0.03491  0.04223
+           2    1    0    0    0          0.17364  0.14968 -0.00422  0.02857  0.02384
+           1    1    0    0    0          0.10800  0.14382  0.05227  0.05167  0.05036
+           0    0    0    0    0         -0.03133 -0.01978 -0.03756 -0.01714 -0.02210
+
+     Computed orbitals occupations should coincide with your DFT results
+     If they differ significantly - check your integration contour.
+
+     For atom  1 spin 1
+        Orbital 1 occupation:  0.447
+        Orbital 2 occupation:  0.832
+        Orbital 3 occupation:  0.923
+        Orbital 4 occupation:  0.890
+        Orbital 5 occupation:  0.424
+
+     For atom  1 spin 2
+        Orbital 1 occupation:  0.153
+        Orbital 2 occupation:  0.102
+        Orbital 3 occupation:  0.087
+        Orbital 4 occupation:  0.092
+        Orbital 5 occupation:  0.155
+
+     For atom  2 spin 1
+        Orbital 1 occupation:  0.153
+        Orbital 2 occupation:  0.102
+        Orbital 3 occupation:  0.087
+        Orbital 4 occupation:  0.092
+        Orbital 5 occupation:  0.155
+
+     For atom  2 spin 2
+        Orbital 1 occupation:  0.447
+        Orbital 2 occupation:  0.832
+        Orbital 3 occupation:  0.923
+        Orbital 4 occupation:  0.890
+        Orbital 5 occupation:  0.424
+
+     For atom  3 spin 1
+        Orbital 1 occupation:  0.153
+        Orbital 2 occupation:  0.102
+        Orbital 3 occupation:  0.087
+        Orbital 4 occupation:  0.092
+        Orbital 5 occupation:  0.155
+
+     For atom  3 spin 2
+        Orbital 1 occupation:  0.447
+        Orbital 2 occupation:  0.832
+        Orbital 3 occupation:  0.923
+        Orbital 4 occupation:  0.890
+        Orbital 5 occupation:  0.424
+
+     For atom  4 spin 1
+        Orbital 1 occupation:  0.153
+        Orbital 2 occupation:  0.102
+        Orbital 3 occupation:  0.087
+        Orbital 4 occupation:  0.092
+        Orbital 5 occupation:  0.155
+
+     For atom  4 spin 2
+        Orbital 1 occupation:  0.447
+        Orbital 2 occupation:  0.832
+        Orbital 3 occupation:  0.923
+        Orbital 4 occupation:  0.890
+        Orbital 5 occupation:  0.424
+
+     For atom  5 spin 1
+        Orbital 1 occupation:  0.153
+        Orbital 2 occupation:  0.102
+        Orbital 3 occupation:  0.087
+        Orbital 4 occupation:  0.092
+        Orbital 5 occupation:  0.155
+
+     For atom  5 spin 2
+        Orbital 1 occupation:  0.447
+        Orbital 2 occupation:  0.832
+        Orbital 3 occupation:  0.923
+        Orbital 4 occupation:  0.890
+        Orbital 5 occupation:  0.424
+
+     For atom  6 spin 1
+        Orbital 1 occupation:  0.153
+        Orbital 2 occupation:  0.102
+        Orbital 3 occupation:  0.087
+        Orbital 4 occupation:  0.092
+        Orbital 5 occupation:  0.155
+
+     For atom  6 spin 2
+        Orbital 1 occupation:  0.447
+        Orbital 2 occupation:  0.832
+        Orbital 3 occupation:  0.923
+        Orbital 4 occupation:  0.890
+        Orbital 5 occupation:  0.424
+
+     For atom  7 spin 1
+        Orbital 1 occupation:  0.153
+        Orbital 2 occupation:  0.102
+        Orbital 3 occupation:  0.087
+        Orbital 4 occupation:  0.092
+        Orbital 5 occupation:  0.155
+
+     For atom  7 spin 2
+        Orbital 1 occupation:  0.447
+        Orbital 2 occupation:  0.832
+        Orbital 3 occupation:  0.923
+        Orbital 4 occupation:  0.890
+        Orbital 5 occupation:  0.424
+
+     For atom  8 spin 1
+        Orbital 1 occupation:  0.447
+        Orbital 2 occupation:  0.832
+        Orbital 3 occupation:  0.923
+        Orbital 4 occupation:  0.890
+        Orbital 5 occupation:  0.424
+
+     For atom  8 spin 2
+        Orbital 1 occupation:  0.153
+        Orbital 2 occupation:  0.102
+        Orbital 3 occupation:  0.087
+        Orbital 4 occupation:  0.092
+        Orbital 5 occupation:  0.155
+
+     For atom  9 spin 1
+        Orbital 1 occupation:  0.447
+        Orbital 2 occupation:  0.832
+        Orbital 3 occupation:  0.923
+        Orbital 4 occupation:  0.890
+        Orbital 5 occupation:  0.424
+
+     For atom  9 spin 2
+        Orbital 1 occupation:  0.153
+        Orbital 2 occupation:  0.102
+        Orbital 3 occupation:  0.087
+        Orbital 4 occupation:  0.092
+        Orbital 5 occupation:  0.155
+
+     For atom 10 spin 1
+        Orbital 1 occupation:  0.447
+        Orbital 2 occupation:  0.832
+        Orbital 3 occupation:  0.923
+        Orbital 4 occupation:  0.890
+        Orbital 5 occupation:  0.424
+
+     For atom 10 spin 2
+        Orbital 1 occupation:  0.153
+        Orbital 2 occupation:  0.102
+        Orbital 3 occupation:  0.087
+        Orbital 4 occupation:  0.092
+        Orbital 5 occupation:  0.155
+
+     Execution time:  396 seconds
