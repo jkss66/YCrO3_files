@@ -8,7 +8,9 @@ You will need the following libraries and packages - gfortran,python3,libatlas-b
 libblas3, libelpa4, libfabric1, libibverbs1, liblapack3, libnl-route-3-200, libpsm-infinipath1, librdmacm1,
 mpi-default-bin, openmpi-bin, openmpi-common, scalapack-doc, openmpi-bin, openmpi-doc, libopenmpi-dev, exchanges.x (https://github.com/dkorotin/exchanges))
 
+Spin dispersion is calculated using SpinW (https://github.com/spinw/SpinW).
+
 # Running the calculations
-You can run the bash script to calculate the exchange interaction for the unperturbed and unperturbed system (B3g3 mode for an amplitude of 11.9 pm).
+Run the bash script to calculate the exchange interaction for the unperturbed and unperturbed system (B3g3 mode for an amplitude of 11.9 pm).
 
 bash wannierham.sh 
