@@ -10,4 +10,4 @@ mpi-default-bin, openmpi-bin, openmpi-common, scalapack-doc, openmpi-bin, openmp
 
 # Running the calculations
 You can run the bash script to calculate the exchange interaction for the unperturbed and unperturbed system.
-Type bash wannierham.sh in terminal to get the exchange interaction for unperturbed and perturbed systems (B3g3 mode for an amplitude of 11.9 pm).
+ Type bash wannierham.sh in terminal to get the exchange interaction for unperturbed and perturbed systems (B3g3 mode for an amplitude of 11.9 pm).
