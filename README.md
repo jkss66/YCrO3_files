@@ -1,5 +1,4 @@
 # YCrO3_files
-Details and files of YCrO3 simulation
 These codes are run on Quantum Espresso version 6.7. 
 (You can find the installation files here "https://www.quantum-espresso.org/download-page/". 
 You will need the following libraries and packages - gfortran,python3,libatlas-base-dev, fftw3, ibverbs-providers, 
